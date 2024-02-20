@@ -30,14 +30,14 @@ function Home() {
                         texto="El enfoque de GEA es brindar
                         asesoramiento profesional geológico
                         y soluciones técnicas.
-                        Nuestro equipo esta formado por un equipo
+                        Nuestro equipo está formado por un equipo
                         multidisciplinario entre hidrogeólogos,
                         geólogos y profesionales de diferentes
                         ramas de la ciencias de la tierra altamente
                         capacitados que brindan herramientas
-                        especificas, manejo de datos precisos y de
+                        específicas, manejo de datos precisos y de
                         calidad para ayudar a comprender los
-                        recursos hidrológicos"
+                        recursos hidrológicos."
                         limiteCaracteres={200}
                         title="OBJETIVOS"/>
                 </div>
@@ -68,7 +68,7 @@ function Home() {
                             emblemáticos de esta zona, estamos en
                             posición de comprender las necesidades
                             singulares tanto de la industria como de
-                            nuestros valiosos clientes"
+                            nuestros valiosos clientes."
                             limiteCaracteres={210}
                             title="VISIÓN"/>
                 </div>
@@ -114,7 +114,7 @@ function Home() {
                     </div>
                     <div>
                         <div><img src="../assets/img3.jpg" alt="" /></div>
-                        <div><img src="../assets/img14.jpeg" alt="" /></div>
+                        <div><img src="../assets/imggeof.jpg" alt="" /></div>
                     </div>
 
                 </div>
@@ -135,7 +135,7 @@ function Home() {
                     </div>
                     <div>
                         <div><img src="../assets/img8.jpg" alt="" /></div>
-                        <div><img src="../assets/img15.jpeg" alt="" /></div>
+                        <div><img src="../assets/imgpz1.png" alt="" /></div>
                     </div>
 
                 </div>
@@ -163,7 +163,7 @@ function Home() {
                         <li>Logueo geológico de cutting</li>
                         <li>Recolección de muestras de roca/sedimentos</li>
                         <li>QA/QC</li>
-                        <li>Calculo del tiempo de retorno</li>
+                        <li>Cálculo del tiempo de retorno</li>
                         <li>Control del lodo de perforación</li>
                         <li>Terminación de pozo</li>
                         <li>Análisis de Bombeo</li>
@@ -183,7 +183,7 @@ function Home() {
         <div className='cards-containers container'>
             <div className="card" style={{width:'400px'}}>
             <div className='zoomImgContainer'>
-                <img src="../assets/img14.jpeg" className="card-img-top" alt="..."/>
+                <img src="../assets/filpz1.jpg" className="card-img-top" alt="..."/>
             </div>
                 <div className="card-body">
                     <h3 className='titleCard'>FILMACIÓN DE POZO</h3>
@@ -220,11 +220,11 @@ function Home() {
 
             <div className="card" style={{width:'400px'}}>
                 <div className='zoomImgContainer'>
-                    <img src="../assets/img14.jpeg" className="card-img-top" alt="..."/>
+                    <img src="../assets/filpz3.jpg" className="card-img-top" alt="..."/>
                 </div>
                 <div className="card-body">
                     <h3 className='titleCard'>ARMADO DE BROCAL
-                        Y MANIFOL</h3>
+                        Y MANIFOLD</h3>
                     <p className="card-text">
                         <ul className='listHomeCards'>
                             <li>Según normativa gubernamentales vigentes</li>
@@ -290,29 +290,26 @@ function Home() {
 
             <div>
                 <div><img src="../assets/img19.jpg" alt="" /></div>
-                <div><img src="../assets/img3.jpg" alt="" /></div>
+                <div><img src="../assets/imgGal1.jpg" alt="" /></div>
                 <div><img src="../assets/img24.jpg" alt="" /></div>
+                <div><img src="../assets/imgGal4.jpg" alt="" /></div>
+                
             </div>
 
             <div>
-                <div><img src="../assets/img3.jpg" alt="" /></div>
+                <div><img src="../assets/imgGal2.jpg" alt="" /></div>
                 <div><img src="../assets/img20.jpeg" alt="" /></div>
                 <div><img src="../assets/img23.jpg" alt="" /></div>
+                <div><img src="../assets/imgGal5.jpg" alt="" /></div>
             </div>
 
             <div>
                 <div><img src="../assets/img21.jpeg" alt="" /></div>
-                <div><img src="../assets/img3.jpg" alt="" /></div>
+                <div><img src="../assets/imgGal3.jpg" alt="" /></div>
+                <div><img src="../assets/imgGal8.jpg" alt="" /></div>
+                
             </div>
         </div>
-
-
-
-
-
-
-
-
 
 
 

@@ -6,12 +6,12 @@
   letter-spacing: 4px;
   overflow: hidden;
   clip: rect(0, auto, auto, 0);
-  background-image: url('../../assets/img42.JPG');
+  background-image: url('../../assets/img42.png');
   background-size: cover;
 }
 
 .section2 {
-    background-image: url('../../assets/img10.jpg');
+    background-image: url('../../assets/imgGal5.jpg');
 }
 .section .fixed {
   overflow: hidden;

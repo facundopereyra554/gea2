@@ -10,7 +10,7 @@ function Banner() {
                 <h1 className="large">GEA</h1>
                 <p className='subTextBanner'> <span>Consultores</span> 
                     <br />
-                    en recursos hidricos SRL
+                    en recursos hídricos SRL
                 </p>
                
             </div>

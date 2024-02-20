@@ -62,11 +62,11 @@ const Footer = () => {
             </form>
           </div>
           <div className="col-md-6 extraInfo">
-            <h2 className='titleFooter'>Informacion de Contacto</h2>
+            <h2 className='titleFooter'>Información de Contacto</h2>
             <br />
             <br />
             <div className='InfopER'>
-                <p>Telefono: +54 9 387 5321985  /  +54 9 387 5090264</p>
+                <p>Teléfono: +54 9 387 5321985  /  +54 9 387 5090264</p>
                 <p>Email: info@gearecursoshidricos.com</p>
                 <div className='qrs'>
                     <img src="../assets/qrNumber1.png" alt="" />
