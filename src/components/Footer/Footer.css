@@ -1,0 +1,35 @@
+.footerContainer{
+    padding-top: 70px !important;
+    background-color: var(--primary-color);
+    font-size: 17px;
+    font-family: AvenirLTStd-Roman;
+}
+
+.form-control{
+    font-size: 17px;
+}
+
+.submitBtn{
+    font-size: 15px;
+    padding: 7px 20px;
+}
+
+.extraInfo{
+    text-align:  center;
+    padding-left: 100px;
+}
+
+.qrs{
+    display: flex;
+    justify-content: center;
+}
+
+.qrs>img{
+    margin: 10px;
+    width: 180px;
+}
+
+.titleFooter{
+    font-family: AlternateBold;
+    font-size: 50px; text-align: center;
+}

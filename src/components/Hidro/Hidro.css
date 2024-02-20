@@ -1,0 +1,178 @@
+.bannerHidro{
+    width: 100%;
+    background-image: url(../../assets/img42.JPG);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pcview{
+    display: block;
+}
+.celview{
+    display: none;
+}
+
+.hidro-title{
+    margin-top: 20px;
+    font-family: AlternateBold;
+    color: var(--primary-color);
+    letter-spacing: 20px;
+    font-size: 50px;
+    padding: 0 0 15px 40px;
+}
+
+.main-sections-title{
+    margin-top: 120px;
+    font-family: AlternateBold;
+    color: var(--primary-color);
+    letter-spacing: 20px;
+    font-size: 50px;
+    padding: 0 0 15px 40px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.main-sections-title-long{
+    font-size: 40px;
+}
+
+.main-sections-description{
+    font-family: AvenirLTStd-Roman;
+    color: var(--primary-color);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0 40px;
+    margin-top: 20px;
+}
+
+.hidro-info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding-left: 50px;
+}
+
+.list-texts{
+    font-family: AvenirLTStd-Roman;
+    font-size: 17px;
+}
+
+.list-texts>li{
+    margin: 25px;
+}
+
+.list-texts>li>span{
+    color: #9c9a9a;
+    transition: .3s;
+}
+
+.list-texts>li>span:hover{
+    color: var(--primary-color);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.hidro-imgs{
+    display: flex;
+}
+
+.hidro-imgs>img{
+    height: 400px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.hidro-imgs-column>img{
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.hidro-imgs-column2>img{
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.sondeo-info{
+    margin-top: 50px;
+}
+
+.sondeo_padd{
+    margin-top: 40px;
+}
+
+
+@media (max-width:1200px) {
+    .hidro-info{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    .sondeo_padd{
+        margin-top: 0;
+    }
+
+    .hidro-imgs-column2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hidro-imgs-column2>img{
+        height: auto;
+    }
+
+    .main-sections-title{
+        font-size: 24px;
+    }
+
+    .hidro-imgs{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    .hidro-title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:546px) {
+    .hidro-title{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:520px) {
+    .main-sections-title{
+        font-size: 15px;
+    }
+    .main-sections-description{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .hidro-info{
+        padding-left: 0;
+    }
+
+    .hidro-title{
+        padding: 0;
+    }
+
+    .pcview{
+        display: none;
+    }
+    .celview{
+        display: block;
+    }
+}
+

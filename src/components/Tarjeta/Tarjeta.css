@@ -1,0 +1,52 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+    width: 100%;
+    background-color: #0180ad;
+    padding: 50px 50px 30px 50px;
+    transition: .3s;
+  }
+
+  .tarjeta:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    transition: .3s;
+  }
+  
+  /* Estilos para el texto dentro de la tarjeta */
+  .tarjeta p {
+    font-size: 17px;
+    text-align: left;
+    color: white; /* Cambia el color del texto si es necesario */
+  }
+  
+  /* Estilos para el botón dentro de la tarjeta */
+  .tarjeta button {
+    background-color: transparent;
+    border: none;
+    color: white; /* Cambia el color del botón si es necesario */
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+  }
+
+  .textCardAbout{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    font-family: AlternateBold;
+  }
+
+  .btnCardAbout{
+    text-align: center;
+  }
+
+  .btnCardAbout>button{
+      font-size: 25px;
+  }
+
+  .imgCardAbout{
+    text-align: center;
+    width: 100px;
+  }
+  

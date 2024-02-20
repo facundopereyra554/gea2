@@ -1,0 +1,45 @@
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(../src/assets/Fuentes/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: AvenirLTStd-Medium;
+    src: url(../src/assets/Fuentes/AvenirLTStd-Medium.otf);
+}
+@font-face {
+    font-family: AvenirLTStd-Roman;
+    src: url(../src/assets/Fuentes/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: AlternateBold;
+    src: url(../src/assets/Fuentes/AlternateBold.otf);
+}
+
+:root{
+    --primary-color: #094880;
+    --secondary-color: #0180ad;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: AvenirLTStd-Book;
+    margin: 0;
+}
+
+ul{
+    padding-left: 0;
+}
