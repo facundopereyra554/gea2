@@ -19,10 +19,10 @@ const Footer = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('service_d6f6j5o', 'template_quw062y', e.target, 'aESkbX7WVqlva8ph4')
       .then((result) => {
         console.log(result.text);
-        alert('Message sent successfully!');
+        alert('Mensaje enviado con éxito');
         setFormData({
           name: '',
           email: '',
@@ -30,7 +30,7 @@ const Footer = () => {
         });
       }, (error) => {
         console.log(error.text);
-        alert('An error occurred. Please try again later.');
+        alert('Error al enviar el correo');
       });
   };
 
