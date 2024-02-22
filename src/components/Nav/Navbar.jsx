@@ -113,12 +113,6 @@ function Navbar(){
                                         <li className="menu-item menu-item-hover">
                                             <Link  to='/Hidrogeologia'>HIDROGEOLOGIA</Link>
                                         </li>
-                                        <li className="menu-item menu-item-hover">
-                                            <a href='#minera'>MINERIA</a>
-                                        </li>                                    
-                                        <li className="menu-item menu-item-hover">
-                                            <a href='#ma'>MEDIO AMBIENTE</a>
-                                        </li>
                                     </ul>
                                 </li>
 
