@@ -3,6 +3,7 @@ import React, { useState , useEffect } from 'react'
 import "./Navbar.css"
 
 function Navbar(){
+
     const [isMenuOpen, setMenuOpen] = useState(false);
 
 
@@ -23,54 +24,51 @@ function Navbar(){
     
   
     const toggleMenu = () => {
-      setMenuOpen(!isMenuOpen);
+        setMenuOpen(!isMenuOpen);
     };
   
     const handleSubMenuClick = (event) => {
-      if (window.innerWidth <= 991) {
-        event.preventDefault();
-        const menuItemHasChildren = event.target.parentElement;
-        if (menuItemHasChildren.classList.contains('active')) {
-          collapseSubMenu();
-        } else {
-          if (document.querySelector('.menu-item-has-children.active')) {
-            collapseSubMenu();
-          }
-          menuItemHasChildren.classList.add('active');
-          const subMenu = menuItemHasChildren.querySelector('.sub-menu');
-          subMenu.style.maxHeight = subMenu.scrollHeight + 'px';
+        if (window.innerWidth <= 991) {
+            event.preventDefault();
+            const menuItemHasChildren = event.target.parentElement;
+            if (menuItemHasChildren.classList.contains('active')) {
+                collapseSubMenu();
+            } else {
+                if (document.querySelector('.menu-item-has-children.active')) {
+                    collapseSubMenu();
+                }
+                menuItemHasChildren.classList.add('active');
+                const subMenu = menuItemHasChildren.querySelector('.sub-menu');
+                subMenu.style.maxHeight = subMenu.scrollHeight + 'px';
+            }
         }
-      }
     };
   
     const collapseSubMenu = () => {
-      const activeMenuItem = document.querySelector('.menu-item-has-children.active');
-      if (activeMenuItem) {
-        const subMenu = activeMenuItem.querySelector('.sub-menu');
-        subMenu.removeAttribute('style');
-        activeMenuItem.classList.remove('active');
-      }
+        const activeMenuItem = document.querySelector('.menu-item-has-children.active');
+        if (activeMenuItem) {
+            const subMenu = activeMenuItem.querySelector('.sub-menu');
+            subMenu.removeAttribute('style');
+            activeMenuItem.classList.remove('active');
+        }
     };
   
     const handleResize = () => {
-      if (window.innerWidth > 991) {
-        collapseSubMenu();
-        if (isMenuOpen) {
-          setMenuOpen(false);
+        if (window.innerWidth > 991) {
+            collapseSubMenu();
+            if (isMenuOpen) {
+                setMenuOpen(false);
+            }
         }
-      }
     };
   
     React.useEffect(() => {
-      window.addEventListener('resize', handleResize);
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-
-
-
 
 
     return (
@@ -111,7 +109,19 @@ function Navbar(){
                                     </a>
                                     <ul className="sub-menu">
                                         <li className="menu-item menu-item-hover">
-                                            <Link  to='/Hidrogeologia'>HIDROGEOLOGIA</Link>
+                                            <a  href=''>HIDROGEOLOGIA</a>
+                                        </li>
+                                        <li className="menu-item menu-item-hover">
+                                            <a  href=''>GEOFÍSICA DE POZO</a>
+                                        </li>                                        
+                                        <li className="menu-item menu-item-hover">
+                                            <a  href=''>DIRECCIÓN TÉCNICA DE POZO</a>
+                                        </li>
+                                        <li className="menu-item menu-item-hover">
+                                            <a  href=''>MINERÍA</a>
+                                        </li>
+                                        <li className="menu-item menu-item-hover">
+                                            <a  href=''>MEDIO AMBIENTE</a>
                                         </li>
                                     </ul>
                                 </li>

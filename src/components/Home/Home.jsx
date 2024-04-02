@@ -101,11 +101,11 @@ function Home() {
                     </p>
                     
                     <ul className='list-texts listHome'>
-                        <li>Litología</li>
-                        <li>Definir distintos acuíferos</li>
-                        <li>Definir el nivel estático de agua</li>
-                        <li>Conocer el espesor del acuífero</li>
-                        <li>Diseñar la habilitación de pozos, colocación de filtros y cañería ciega </li>
+                        <li>Litología.</li>
+                        <li>Definir distintos acuíferos.</li>
+                        <li>Definir el nivel estático de agua.</li>
+                        <li>Conocer el espesor del acuífero.</li>
+                        <li>Diseñar la habilitación de pozos, colocación de filtros y cañería ciega.</li>
                     </ul>
                 </div>
                 <div className='imgGEOp'>
@@ -147,8 +147,6 @@ function Home() {
                         obtienen durante la perforación de pozos.
                         Se desarrolla con la presencia de un Geólogo de campo en la plataforma de perforación.
                         <br />
-                        
-
                     </p>
 
                     <p className='textHome' >Tareas de control geológico
@@ -158,19 +156,19 @@ function Home() {
                     </p>
                     
                     <ul className='list-texts listHome'>
-                        <li> Dirigir la obra</li>
-                        <li>Toma de decisiones operativas</li>
-                        <li>Logueo geológico de cutting</li>
-                        <li>Recolección de muestras de roca/sedimentos</li>
-                        <li>QA/QC</li>
-                        <li>Cálculo del tiempo de retorno</li>
-                        <li>Control del lodo de perforación</li>
-                        <li>Terminación de pozo</li>
-                        <li>Análisis de Bombeo</li>
-                        <li>Toma de parámetros físicos del agua</li>
-                        <li>Control del tiempo de las operaciones</li>
-                        <li>Controlar la seguridad de las operaciones</li>
-                        <li>Base de datos</li>
+                        <li> Dirigir la obra.</li>
+                        <li>Toma de decisiones operativas.</li>
+                        <li>Logueo geológico de cutting.</li>
+                        <li>Recolección de muestras de roca/sedimentos.</li>
+                        <li>QA/QC.</li>
+                        <li>Cálculo del tiempo de retorno.</li>
+                        <li>Control del lodo de perforación.</li>
+                        <li>Terminación de pozo.</li>
+                        <li>Análisis de Bombeo.</li>
+                        <li>Toma de parámetros físicos del agua.</li>
+                        <li>Control del tiempo de las operaciones.</li>
+                        <li>Controlar la seguridad de las operaciones.</li>
+                        <li>Base de datos.</li>
                     </ul>
                 </div>
 
@@ -189,11 +187,11 @@ function Home() {
                     <h3 className='titleCard'>FILMACIÓN DE POZO</h3>
                     <p className="card-text">
                         <ul className='listHomeCards'>
-                            <li>Inspección de cañería</li>
-                            <li>Estado de filtros</li>
-                            <li>Uniones entre cañerías</li>
-                            <li>Sedimentación del fondo del pozo</li>
-                            <li>Obturaciones</li>
+                            <li>Inspección de cañería.</li>
+                            <li>Estado de filtros.</li>
+                            <li>Uniones entre cañerías.</li>
+                            <li>Sedimentación del fondo del pozo.</li>
+                            <li>Obturaciones.</li>
                         </ul>
                     </p>
                 </div>
@@ -209,9 +207,9 @@ function Home() {
                         BOMBAS SUMERGIBLES</h3>
                     <p className="card-text">
                         <ul className='listHomeCards'>
-                            <li>Cambios de equipos </li>
-                            <li> Evaluaciones hidráulicas</li>
-                            <li>Evaluaciones geoquímicas</li>
+                            <li>Cambios de equipos. </li>
+                            <li> Evaluaciones hidráulicas.</li>
+                            <li>Evaluaciones geoquímicas.</li>
                         </ul>
                     </p>
                 </div>
@@ -227,9 +225,9 @@ function Home() {
                         Y MANIFOLD</h3>
                     <p className="card-text">
                         <ul className='listHomeCards'>
-                            <li>Según normativa gubernamentales vigentes</li>
-                            <li>Cambios de sistemas</li>
-                            <li>Mejoras de sistemas de medición</li>
+                            <li>Según normativa gubernamentales vigentes.</li>
+                            <li>Cambios de sistemas.</li>
+                            <li>Mejoras de sistemas de medición.</li>
                         </ul>
                     </p>
                 </div>
@@ -250,9 +248,9 @@ function Home() {
                         <li>Mapeo de alteraciones.</li>
                         <li>Mapeo temáticos geoquímicos.</li>
                         <li>Programación, elaboracion y ejecucion de protocolos de muestreos aplicado a diferentes tipologías de yacimientos.</li>
-                        <li>QA/QC</li>
+                        <li>QA/QC.</li>
                         <li>Control geológico de pozo.</li>
-                        <li>Logueo geológico y logueo geotécnico registro fotográfico</li>
+                        <li>Logueo geológico y logueo geotécnico registro fotográfico.</li>
                         <li>Generación de base de datos.</li>
                         <li>Informe final de exploración/prospección.</li>
                     </ul>
@@ -267,13 +265,13 @@ function Home() {
                         <li>Riesgo y pasivo ambiental.</li>
                         <li>Factibilidad de sustentabilidad e integración ambiental.</li>
                         <li>Caracterización ambiental (línea de base).</li>
-                        <li>Diseño e implementación de programas de monitoreo de agua, suelo, aire</li>
+                        <li>Diseño e implementación de programas de monitoreo de agua, suelo, aire.</li>
                         <li>Capacitación ambiental.</li>
-                        <li>Coordinación de monitoreos participativos</li>
-                        <li>Documentación regulatoria </li>
-                        <li>Negociación con agencias reguladoras </li>
-                        <li>Informes de cumplimiento</li>
-                        <li>Gestión de datos ambientales</li>
+                        <li>Coordinación de monitoreos participativos.</li>
+                        <li>Documentación regulatoria.</li>
+                        <li>Negociación con agencias reguladoras. </li>
+                        <li>Informes de cumplimiento.</li>
+                        <li>Gestión de datos ambientales.</li>
                     </ul>
                 </div>
             </div>

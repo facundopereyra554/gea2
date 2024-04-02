@@ -33,3 +33,10 @@
     font-family: AlternateBold;
     font-size: 50px; text-align: center;
 }
+
+.slider-logos{
+    margin-top: 40px;
+    border-top: 1px solid white;
+    padding-top: 70px;
+    text-align: center;
+}
