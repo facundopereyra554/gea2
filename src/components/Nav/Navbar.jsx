@@ -109,10 +109,10 @@ function Navbar(){
                                     </a>
                                     <ul className="sub-menu">
                                         <li className="menu-item menu-item-hover">
-                                            <a  href=''>HIDROGEOLOGIA</a>
+                                            <a  href='#hidrogeo'>HIDROGEOLOGIA</a>
                                         </li>
                                         <li className="menu-item menu-item-hover">
-                                            <a  href=''>GEOFÍSICA DE POZO</a>
+                                            <a  href='#geofisica'>GEOFÍSICA DE POZO</a>
                                         </li>                                        
                                         <li className="menu-item menu-item-hover">
                                             <a  href=''>DIRECCIÓN TÉCNICA DE POZO</a>

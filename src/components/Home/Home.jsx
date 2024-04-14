@@ -4,6 +4,7 @@ import Navbar from '../Nav/Navbar'
 import Tarjeta from '../Tarjeta/Tarjeta'
 import { useEffect } from 'react'
 import './Home.css' 
+import Hidrohome from './Hidrohome'
 
 function Home() {
     useEffect(() => {
@@ -73,11 +74,17 @@ function Home() {
                             title="VISIÓN"/>
                 </div>
 
-            </div>            
+            </div>
+            <div id='hidrogeo'></div>          
         </div>
+        <div>
+            <Hidrohome/>
+            
+        </div>
+        
 
 
-        <div className=' container'>
+        <div className='container' >
             <h3 className='main-sections-title main-sections-title-long'>GEOFÍSICA DE POZO</h3>
             <div className='textFlex'>
                 <div>
