@@ -84,7 +84,7 @@ function Home() {
         
 
 
-        <div className='container' >
+        <div className='container' id='geofisica'>
             <h3 className='main-sections-title main-sections-title-long'>GEOFÍSICA DE POZO</h3>
             <div className='textFlex'>
                 <div>
@@ -132,7 +132,7 @@ function Home() {
             </div>
         </div>
 
-        <div className=' container'>
+        <div className=' container' id='dirtec'>
             <h3 className='main-sections-title main-sections-title-long'>DIRECCIÓN TÉCNICA DE POZO</h3>
             <div className='textFlex'>
 
@@ -241,8 +241,8 @@ function Home() {
             </div>
         </div>
 
-        <div className='container lastPartContainer'>
-            <div id='minera' className='gridPart'>
+        <div id='mineria' className='container lastPartContainer'>
+            <div className='gridPart'>
                 <div>
                     <h3 className='main-sections-title listHomeLast'> <br />MINERÍA <br /></h3>
                     <br />
@@ -262,7 +262,7 @@ function Home() {
                         <li>Informe final de exploración/prospección.</li>
                     </ul>
                 </div>
-                <div id='ma'>
+                <div id='medAmb'>
                     <h3 className='main-sections-title listHomeLast'>MEDIO AMBIENTE</h3>
                     <br />
                     <ul className='list-texts listHome'>

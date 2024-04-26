@@ -39,9 +39,17 @@
     border-top: 1px solid white;
     padding-top: 70px;
     text-align: center;
+    padding: 0 50px;
 }
 
 .lgs-com{
-    margin: auto 0;
+    height:auto;
+    width: 200px;
+}
+
+.div-container-img{
+    display: flex !important; 
+    justify-content: center;
+    align-items: center;
 }
 

@@ -115,13 +115,13 @@ function Navbar(){
                                             <a  href='#geofisica'>GEOFÍSICA DE POZO</a>
                                         </li>                                        
                                         <li className="menu-item menu-item-hover">
-                                            <a  href=''>DIRECCIÓN TÉCNICA DE POZO</a>
+                                            <a  href='#dirtec'>DIRECCIÓN TÉCNICA DE POZO</a>
                                         </li>
                                         <li className="menu-item menu-item-hover">
-                                            <a  href=''>MINERÍA</a>
+                                            <a  href='#mineria'>MINERÍA</a>
                                         </li>
                                         <li className="menu-item menu-item-hover">
-                                            <a  href=''>MEDIO AMBIENTE</a>
+                                            <a  href='#medAmb'>MEDIO AMBIENTE</a>
                                         </li>
                                     </ul>
                                 </li>

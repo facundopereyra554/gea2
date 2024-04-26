@@ -3,7 +3,8 @@ function Hidrohome() {
     return (
         <>
         <div className='hidro-container container' style={{marginTop: '140px'}}>
-            <h3 className='main-sections-title main-sections-title-long'>HIDROGEOLOGÍA</h3>
+            <h3 className='main-sections-title main-sections-title-long pcview'>HIDROGEOLOGÍA</h3>
+            <h3 className='main-sections-title main-sections-title-long celview'>HIDRO- GEOLOGÍA</h3>
             <p className='main-sections-description'>
                 PARA LA INDUSTRIA MINERA METALIFERA- NO METALIFERA (Litio)
                 AGRICOLA - URBANIZACIONES
