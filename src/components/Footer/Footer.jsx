@@ -118,17 +118,17 @@ const Footer = () => {
                 <div className=''>
                     <div className="slider-container">
                         <Slider {...settings}>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/aeg.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/aminco.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/andes.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/conosur.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/drillar.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/foraco.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/ganfeng.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/litica.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/msr.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/santafe.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosCompanys/virgen.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aeg.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aminco.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/andes.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/conosur.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/drillar.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/foraco.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/ganfeng.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/litica.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/msr.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/santafe.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/virgen.png" alt="" /></div>
                         </Slider>
                     </div>
                 </div>
