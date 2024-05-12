@@ -6,6 +6,23 @@ import { useEffect } from 'react'
 import './Home.css' 
 import Hidrohome from './Hidrohome'
 
+
+import Img5 from "../../assets/gallery/img5.jpg";
+import Img17 from "../../assets/gallery/img17.jpg";
+import Img19 from "../../assets/gallery/img19.jpg";
+import Img20 from "../../assets/gallery/img20.jpg";
+import Img21 from "../../assets/gallery/img21.jpg";
+import Img22 from "../../assets/gallery/img22.jpg";
+import Img23 from "../../assets/gallery/img23.jpg";
+import Img24 from "../../assets/gallery/img24.jpg";
+import Img25 from "../../assets/gallery/img25.jpg";
+import ImgGal1 from "../../assets/gallery/imgGal1.jpg";
+import ImgGal2 from "../../assets/gallery/imgGal2.jpg";
+import ImgGal3 from "../../assets/gallery/imgGal3.jpg";
+import ImgGal4 from "../../assets/gallery/imgGal4.jpg";
+import ImgGal5 from "../../assets/gallery/imgGal5.jpg";
+import ImgGal8 from "../../assets/gallery/imgGal8.jpg";
+
 function Home() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -287,31 +304,31 @@ function Home() {
 
         <div className='galeryHome container'>
             <div>
-                <div><img src="../src/assets/gallery/img5.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/img17.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/img22.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/img25.jpg" alt="" /></div>
+                <div><img src={Img5} alt="" /></div>
+                <div><img src={Img17} alt="" /></div>
+                <div><img src={Img22} alt="" /></div>
+                <div><img src={Img25} alt="" /></div>
             </div>
 
             <div>
-                <div><img src="../src/assets/gallery/img19.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/imgGal1.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/img24.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/imgGal4.jpg" alt="" /></div>
+                <div><img src={Img19} alt="" /></div>
+                <div><img src={ImgGal1} alt="" /></div>
+                <div><img src={Img24} alt="" /></div>
+                <div><img src={ImgGal4} alt="" /></div>
                 
             </div>
 
             <div>
-                <div><img src="../src/assets/gallery/imgGal2.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/img20.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/img23.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/imgGal5.jpg" alt="" /></div>
+                <div><img src={ImgGal2} alt="" /></div>
+                <div><img src={Img20} alt="" /></div>
+                <div><img src={Img23} alt="" /></div>
+                <div><img src={ImgGal5} alt="" /></div>
             </div>
 
             <div>
-                <div><img src="../src/assets/gallery/img21.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/imgGal3.jpg" alt="" /></div>
-                <div><img src="../src/assets/gallery/imgGal8.jpg" alt="" /></div>
+                <div><img src={Img21} alt="" /></div>
+                <div><img src={ImgGal3} alt="" /></div>
+                <div><img src={ImgGal8} alt="" /></div>
                 
             </div>
         </div>
