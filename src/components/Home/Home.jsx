@@ -285,36 +285,36 @@ function Home() {
 
         </div>
 
-        {/* <div className='galeryHome container'>
+        <div className='galeryHome container'>
             <div>
-                <div><img src="../src/assets/img5.jpg" alt="" /></div>
-                <div><img src="../src/assets/img17.jpg" alt="" /></div>
-                <div><img src="../src/assets/img22.jpg" alt="" /></div>
-                <div><img src="../src/assets/img25.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img5.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img17.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img22.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img25.jpg" alt="" /></div>
             </div>
 
             <div>
-                <div><img src="../src/assets/img19.jpg" alt="" /></div>
-                <div><img src="../src/assets/imgGal1.jpg" alt="" /></div>
-                <div><img src="../src/assets/img24.jpg" alt="" /></div>
-                <div><img src="../src/assets/imgGal4.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img19.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/imgGal1.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img24.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/imgGal4.jpg" alt="" /></div>
                 
             </div>
 
             <div>
-                <div><img src="../src/assets/imgGal2.jpg" alt="" /></div>
-                <div><img src="../src/assets/img20.jpeg" alt="" /></div>
-                <div><img src="../src/assets/img23.jpg" alt="" /></div>
-                <div><img src="../src/assets/imgGal5.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/imgGal2.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img20.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img23.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/imgGal5.jpg" alt="" /></div>
             </div>
 
             <div>
-                <div><img src="../src/assets/img21.jpeg" alt="" /></div>
-                <div><img src="../src/assets/imgGal3.jpg" alt="" /></div>
-                <div><img src="../src/assets/imgGal8.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/img21.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/imgGal3.jpg" alt="" /></div>
+                <div><img src="../src/assets/gallery/imgGal8.jpg" alt="" /></div>
                 
             </div>
-        </div> */}
+        </div>
 
 
 
