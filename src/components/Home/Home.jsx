@@ -1,6 +1,5 @@
 import Banner from '../Banner/Banner'
 import Footer from '../Footer/Footer'
-import Navbar from '../Nav/Navbar'
 import Tarjeta from '../Tarjeta/Tarjeta'
 import { useEffect } from 'react'
 import './Home.css' 
@@ -29,8 +28,6 @@ function Home() {
     }, []);
     return (
         <>
-         <Navbar/>
-        
         <div style={{marginTop: '100px'}}>
             <Banner/>
         </div>
@@ -295,11 +292,35 @@ function Home() {
                         <li>Documentación regulatoria.</li>
                         <li>Negociación con agencias reguladoras. </li>
                         <li>Informes de cumplimiento.</li>
-                        <li>Gestión de datos ambientales.</li>
+                        <li id='topo'>Gestión de datos ambientales.</li>
                     </ul>
                 </div>
             </div>
 
+        </div>
+
+        <div  className='container topographyContainer'>
+            <h3 className='main-sections-title '>TOPOGRAFIA</h3>
+            <div className="textFlex">
+                <div>
+
+                </div>
+                <div>
+                    <br />
+                    <br />
+                    <ul className='list-texts listHome'>
+                        <li>Diseño, calculo y ejecución de obras civiles.</li>
+                        <li>Diseño y ejecución de caminos</li>
+                        <li>Análisis de hidrología. Diseño y cálculo de obras hidráulicas</li>
+                        <li>Mensuras en general</li>
+                        <li>Modelos digitales de elevación</li>
+                        <li>Nivelaciones</li>
+                        <li>Explanaciones</li>
+                        <li>Obtención de curvas de nivel</li>
+
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div className='galeryHome container'>
