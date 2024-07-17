@@ -1,30 +1,33 @@
 import '../Hidro/Hidro.css'
+import {FormattedMessage} from 'react-intl';
 function Hidrohome() {
     return (
         <>
         <div className='hidro-container container' style={{marginTop: '140px'}}>
-            <h3 className='main-sections-title main-sections-title-long pcview'>HIDROGEOLOGÍA</h3>
+            <h3 className='main-sections-title main-sections-title-long pcview'><FormattedMessage id="hydrogeology" /></h3>
             <h3 className='main-sections-title main-sections-title-long celview'>HIDRO- GEOLOGÍA</h3>
             <p className='main-sections-description'>
-                PARA LA INDUSTRIA MINERA METALIFERA- NO METALIFERA (Litio)
-                AGRICOLA - URBANIZACIONES
+                <FormattedMessage id="hydrology.miningAndAgriculture" />
             </p>
 
             <div className='hidro-info'>
                 <div>
                     <ul className='list-texts'>
-                        <li><span>Estudios de prefactibilidad</span></li>
-                        <li><span>Análisis de cuenca a partir de GIS</span></li>
-                        <li><span>Obtención de autorizaciones para
-                            exploración de agua subterránea y
-                            de licencias para explotación</span></li>
-                        <li><span>Programas de exploración a través
-                            de geofísica de superficie.</span></li>
-                        <li><span>Caracterización hidrogeológica.</span></li>
-                        <li><span>Estudios de balance hídrico.</span></li>
-                        <li><span>Programas de perforaciones enfunción de los tiempos previstos para la
-                            exploración</span></li>
-                        <li><span>Programas de recolección de datos</span></li>
+                        <li><span><FormattedMessage id="prefeasibility" /></span></li>
+                        <li><span><FormattedMessage id="gisAnalysis" /></span></li>
+                        <li><span><FormattedMessage id="explorationAuthorizations" /></span></li>
+                        <li><span><FormattedMessage id="explorationPrograms" /></span></li>
+                        <li><span><FormattedMessage id="hydrogeologicalCharacterization" /></span></li>
+                        <li><span><FormattedMessage id="waterBalanceStudies" /></span></li>
+                        <li><span><FormattedMessage id="drillingPrograms" /></span></li>
+                        <li><span><FormattedMessage id="dataCollectionPrograms" /></span></li>
+                        <li><span><FormattedMessage id="wellTechnicalDirection" /></span></li>
+                        <li><span><FormattedMessage id="pumpingTests" /></span></li>
+                        <li><span><FormattedMessage id="aquiferEvaluation" /></span></li>
+                        <li><span><FormattedMessage id="wellFieldDesign" /></span></li>
+                        <li><span><FormattedMessage id="monitoringSystem" /></span></li>
+                        <li><span><FormattedMessage id="conceptualModel" /></span></li>
+                        <li><span><FormattedMessage id="monitoringProgram" /></span></li>
                     </ul>
                 </div>
                 <div className='hidro-imgs'>
@@ -38,39 +41,30 @@ function Hidrohome() {
             </div>
 
 
-            <h3 className='main-sections-title main-sections-title-long'>SONDEO ELÉCTRICO VERTICAL</h3>
+            <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="sevMethod" /></h3>
             <p className='main-sections-description'>
-                SEV
+                <FormattedMessage id="sevAbbreviation" /> 
             </p>
 
 
             <div className='hidro-info'>
                 <div className='sondeo_padd'>
                     <ul className='list-texts'>
-                        <li><span>Es un método económico previo a
-                                la toma de decisiones para colocar
-                                un pozo de perforación.</span></li>
+                        <li><span><FormattedMessage id="sevDescription" /></span></li>
 
-                        <li><span>Permite Conocer las propiedades
-                                    eléctricas de los materiales que
-                                    constituyen del subsuelo</span></li>
+                        <li><span><FormattedMessage id="sevBenefits.electricalProperties" /></span></li>
 
-                        <li><span>Permite definir espesores no
-                                    saturados.</span></li>
+                        <li><span><FormattedMessage id="sevBenefits.unsaturatedThickness" /></span></li>
 
-                        <li><span>Definir espesores saturados.</span></li>
+                        <li><span><FormattedMessage id="sevBenefits.saturatedThickness" /></span></li>
 
-                        <li><span>Conocer interfases de diferentes
-                                    acuíferos dulce, salobres, salados.</span></li>
+                        <li><span><FormattedMessage id="sevBenefits.aquiferInterfaces" /></span></li>
 
-                        <li><span>Permite proyectar la profundidad de
-                                    un pozo.</span></li>
+                        <li><span><FormattedMessage id="sevBenefits.wellDepthProjection" /></span></li>
 
-                        <li><span>Permite diseñar tentativamente un pozo.</span></li>
+                        <li><span><FormattedMessage id="sevBenefits.tentativeDesign" /></span></li>
 
-                        <li><span>Con varias secciones geo eléctricas
-                                    correlacionados en profundidad
-                                    se puede crear corte geo eléctrica.</span></li>
+                        <li><span><FormattedMessage id="sevBenefits.geoElectricalSections" /></span></li>
                     </ul>
                 </div>
                 <div className='hidro-imgs-column2'>

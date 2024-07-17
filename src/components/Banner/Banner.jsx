@@ -1,4 +1,5 @@
 import './Banner.css';
+import {FormattedMessage} from 'react-intl';
 function Banner() {
 
 
@@ -17,11 +18,7 @@ function Banner() {
         </div>
         <div className="section section2">
             <div className="fixed">
-            <h1>Gea personifica el origen de la vida, siendo la divinidad que
-                encarna a la Tierra, la feminidad y la plenitud de la fortaleza.
-                Gea representa la tierra, pero también el elemento vital del
-                agua. Ella simboliza ese flujo constante, una fuente
-                inagotable de creación.</h1>
+            <h1><FormattedMessage id="aboutUs.ourHistory" /></h1>
                 <img src="../assets/logo.png" alt="Logo" className='logo' />
             </div>
         </div>

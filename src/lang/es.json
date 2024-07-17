@@ -30,7 +30,9 @@
     "monitoringSystem": "Sistema de monitoreo / diseño del programa de muestreo. QA/QC",
     "conceptualModel": "Desarrollo conceptual del modelo hidrogeológico. Desarrollo de entrada de modelo numérico",
     "monitoringProgram": "Diseño / implementación del programa de monitoreo",
+
     "sevMethod": "SONDEO ELÉCTRICO VERTICAL – SEV",
+    "sevAbbreviation": "SEV",
     "sevDescription": "Es un método económico previo a la toma de decisiones para colocar un pozo de perforación.",
   
     "sevBenefits.electricalProperties": "Permite Conocer las propiedades eléctricas de los materiales que constituyen del subsuelo",
@@ -90,7 +92,7 @@
     "wellHeadAndManifold.description": "ARMADO DE BROCAL Y MANIFOL",
     "wellHeadAndManifold.governmentStandards": "Según normativa gubernamentales vigentes",
     "wellHeadAndManifold.systemChanges": "Cambios de sistemas",
-    "wellHeadAndManifoldmeasurementImprovements": "Mejoras de sistemas de medición",
+    "wellHeadAndManifold.measurementImprovements": "Mejoras de sistemas de medición",
  
      
     "mining.description": "MINERÍA",

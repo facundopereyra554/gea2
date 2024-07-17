@@ -2,7 +2,7 @@ import { Link} from "react-router-dom"
 import  React, { useState , useEffect } from 'react'
 import "./Navbar.css"
 import LanguageButton from "./LanguageButton";
-import { FormattedMessage, useIntl} from 'react-intl';
+import { FormattedMessage} from 'react-intl';
 function Navbar({setLocale, locale}){
 
     const [isMenuOpen, setMenuOpen] = useState(false);

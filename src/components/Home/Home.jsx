@@ -4,6 +4,7 @@ import Tarjeta from '../Tarjeta/Tarjeta'
 import { useEffect } from 'react'
 import './Home.css' 
 import Hidrohome from './Hidrohome'
+import {FormattedMessage} from 'react-intl';
 
 
 import Img5 from "../../assets/gallery/img5.jpg";
@@ -99,34 +100,26 @@ function Home() {
 
 
         <div className='container' id='geofisica'>
-            <h3 className='main-sections-title main-sections-title-long'>GEOFÍSICA DE POZO</h3>
+            <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="wellGeology" /></h3>
             <div className='textFlex'>
                 <div>
                     <p className='textHome'>
-                        El perfilaje de pozo es una técnica que permite la medición, a lo largo
-                        del pozo, de las características eléctricas de las formaciones geológicas
-                        y de los fluidos contenidos en ellas, logrando mediante su interpretación
-                        un pronóstico del potencial y la calidad de los recursos hidrogeológicos
-                        del subsuelo.
-                        Los parámetros geofísicos se representan verticalmente a partir de curvas
-                        que otorga el perfilaje eléctrico de pozo. En las curvas se pueden leer
-                        los valores de potencial espontáneo (SP), resistividad puntual (SPR),
-                        resistividad normal corta (RNC) , de resistividad normal larga (RNL)
-                        y gamma natural (GM) en forma simultánea. <br />
+                        <FormattedMessage id="wellLogging.description" />
+
+                        <FormattedMessage id="wellLogging.parameters" />
+                        <br />
                         <br />
 
                     </p>
 
-                    <p className='textHome' >Con las curvas obtenidas del Perfilaje Eléctrico y su comparación
-                        se podrá definir:
-                    </p>
+                    <p className='textHome' ><FormattedMessage id="wellLogging.curveAnalysis" /></p>
                     
                     <ul className='list-texts listHome'>
-                        <li>Litología.</li>
-                        <li>Definir distintos acuíferos.</li>
-                        <li>Definir el nivel estático de agua.</li>
-                        <li>Conocer el espesor del acuífero.</li>
-                        <li>Diseñar la habilitación de pozos, colocación de filtros y cañería ciega.</li>
+                        <li><FormattedMessage id="curveAnalysisDetails.lithology" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.aquifers" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.staticWaterLevel" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.aquiferThickness" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.wellCompletionDesign" /></li>
                     </ul>
                 </div>
                 <div className='imgGEOp'>
@@ -147,7 +140,7 @@ function Home() {
         </div>
 
         <div className=' container' id='dirtec'>
-            <h3 className='main-sections-title main-sections-title-long'>DIRECCIÓN TÉCNICA DE POZO</h3>
+            <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="technicalDirection.description" /></h3>
             <div className='textFlex'>
 
                 <div className='imgGEOp'>
@@ -162,33 +155,30 @@ function Home() {
                 </div>
                 <div>
                     <p className='textHome'>
-                        El control geológico de pozo o Mud Logging es una actividad técnica que juega un papel
-                        clave durante las perforaciones.
-                        Consiste en la recopilación, almacenamiento e interpretación de datos geológicos que se
-                        obtienen durante la perforación de pozos.
-                        Se desarrolla con la presencia de un Geólogo de campo en la plataforma de perforación.
+                        <FormattedMessage id="technicalDirection.mudLogging" />
+                        <FormattedMessage id="technicalDirection.dataManagement" />
+                        <FormattedMessage id="technicalDirection.fieldGeologistPresence" />
                         <br />
                     </p>
 
-                    <p className='textHome' >Tareas de control geológico
-                        en perforaciones rotary:
+                    <p className='textHome' > <FormattedMessage id="technicalDirection.rotaryDrillingControl" />
                         <br />
                         <br />
                     </p>
                     
                     <ul className='list-texts listHome'>
-                        <li> Dirigir la obra.</li>
-                        <li>Toma de decisiones operativas.</li>
-                        <li>Logueo geológico de cutting.</li>
-                        <li>Recolección de muestras de roca/sedimentos.</li>
+                        <li> <FormattedMessage id="rotaryDrillingTasks.siteManagement" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.operationalDecisions" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.cuttingLogging" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.rockSamplesCollection" /></li>
                         <li>QA/QC.</li>
-                        <li>Cálculo del tiempo de retorno.</li>
-                        <li>Control del lodo de perforación.</li>
-                        <li>Terminación de pozo.</li>
-                        <li>Análisis de Bombeo.</li>
-                        <li>Toma de parámetros físicos del agua.</li>
-                        <li>Control del tiempo de las operaciones.</li>
-                        <li>Controlar la seguridad de las operaciones.</li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.returnTimeCalculation" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.mudControl" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.wellCompletion" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.pumpingAnalysis" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.waterParameters" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.operationTimeControl" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.safetyControl" /></li>
                         <li>Base de datos.</li>
                     </ul>
                 </div>
@@ -205,14 +195,14 @@ function Home() {
                 <img src="../assets/filpz1.jpg" className="card-img-top" alt="..."/>
             </div>
                 <div className="card-body">
-                    <h3 className='titleCard'>FILMACIÓN DE POZO</h3>
+                    <h3 className='titleCard'><FormattedMessage id="wellFilming.description" /></h3>
                     <p className="card-text">
                         <ul className='listHomeCards'>
-                            <li>Inspección de cañería.</li>
-                            <li>Estado de filtros.</li>
-                            <li>Uniones entre cañerías.</li>
-                            <li>Sedimentación del fondo del pozo.</li>
-                            <li>Obturaciones.</li>
+                            <li><FormattedMessage id="wellFilming.pipeInspection" /></li>
+                            <li><FormattedMessage id="wellFilming.filterCondition" /></li>
+                            <li><FormattedMessage id="wellFilming.pipeJoints" /></li>
+                            <li><FormattedMessage id="wellFilming.bottomSedimentation" /></li>
+                            <li><FormattedMessage id="wellFilming.obstructions" /></li>
                         </ul>
                     </p>
                 </div>
@@ -224,13 +214,12 @@ function Home() {
                     <img src="../assets/img14.jpeg" className="card-img-top" alt="..."/>
                 </div>
                 <div className="card-body">
-                    <h3 className='titleCard'>DESINSTALACIÓN DE
-                        BOMBAS SUMERGIBLES</h3>
+                    <h3 className='titleCard'><FormattedMessage id="pumpInstallation.description" /></h3>
                     <p className="card-text">
                         <ul className='listHomeCards'>
-                            <li>Cambios de equipos. </li>
-                            <li> Evaluaciones hidráulicas.</li>
-                            <li>Evaluaciones geoquímicas.</li>
+                            <li><FormattedMessage id="pumpInstallation.equipmentChanges" /> </li>
+                            <li><FormattedMessage id="pumpInstallation.hydraulicEvaluations" /></li>
+                            <li><FormattedMessage id="pumpInstallation.geochemicalEvaluations" /></li>
                         </ul>
                     </p>
                 </div>
@@ -242,13 +231,12 @@ function Home() {
                     <img src="../assets/filpz3.jpg" className="card-img-top" alt="..."/>
                 </div>
                 <div className="card-body">
-                    <h3 className='titleCard'>ARMADO DE BROCAL
-                        Y MANIFOLD</h3>
+                    <h3 className='titleCard'><FormattedMessage id="wellHeadAndManifold.description" /></h3>
                     <p className="card-text">
                         <ul className='listHomeCards'>
-                            <li>Según normativa gubernamentales vigentes.</li>
-                            <li>Cambios de sistemas.</li>
-                            <li>Mejoras de sistemas de medición.</li>
+                            <li><FormattedMessage id="wellHeadAndManifold.governmentStandards" /></li>
+                            <li><FormattedMessage id="wellHeadAndManifold.systemChanges" /></li>
+                            <li><FormattedMessage id="wellHeadAndManifold.measurementImprovements" /></li>
                         </ul>
                     </p>
                 </div>
@@ -258,41 +246,39 @@ function Home() {
         <div id='mineria' className='container lastPartContainer'>
             <div className='gridPart'>
                 <div>
-                    <h3 className='main-sections-title listHomeLast'> <br />MINERÍA <br /></h3>
+                    <h3 className='main-sections-title listHomeLast'> <br /><FormattedMessage id="mining.description" /> <br /></h3>
                     <br />
                     <ul className='list-texts listHome'>
-                        <li>Presentación de programas de exploración a organizaciones gubernamentales.</li>
-                        <li>Obtención de permisos de exploración.</li>
-                        <li>Prospección / Exploración.</li>
-                        <li>Procesamiento GIS e imágenes satelitales: Mapa geológico.</li>
-                        <li>Mapeo estructural.</li>
-                        <li>Mapeo de alteraciones.</li>
-                        <li>Mapeo temáticos geoquímicos.</li>
-                        <li>Programación, elaboracion y ejecucion de protocolos de muestreos aplicado a diferentes tipologías de yacimientos.</li>
-                        <li>QA/QC.</li>
-                        <li>Control geológico de pozo.</li>
-                        <li>Logueo geológico y logueo geotécnico registro fotográfico.</li>
-                        <li>Generación de base de datos.</li>
-                        <li>Informe final de exploración/prospección.</li>
+                        <li><FormattedMessage id="mining.explorationPrograms" /></li>
+                        <li><FormattedMessage id="mining.explorationPermits" /></li>
+                        <li><FormattedMessage id="mining.gisProcessing" /></li>
+                        <li><FormattedMessage id="mining.geologicalMapping" /></li>
+                        <li><FormattedMessage id="mining.structuralMapping" /></li>
+                        <li><FormattedMessage id="mining.thematicMapping" /></li>
+                        <li><FormattedMessage id="mining.samplingProtocols" /></li>
+                        <li><FormattedMessage id="mining.qaQc" /></li>
+                        <li><FormattedMessage id="mining.geologicalLogging" /></li>
+                        <li><FormattedMessage id="mining.dataManagement" /></li>
+                        <li><FormattedMessage id="mining.projectEvaluation" /></li>
                     </ul>
                 </div>
                 <div id='medAmb'>
-                    <h3 className='main-sections-title listHomeLast'>MEDIO AMBIENTE</h3>
+                    <h3 className='main-sections-title listHomeLast'><FormattedMessage id="environment.description" /></h3>
                     <br />
                     <ul className='list-texts listHome'>
-                        <li>Informe de impacto ambiental y social para las etapas de prospección, exploración y explotación minera, urbanizaciones.</li>
-                        <li>Auditorías y diagnósticos ambientales.</li>
-                        <li>Planes remediación.</li>
-                        <li>Riesgo y pasivo ambiental.</li>
-                        <li>Factibilidad de sustentabilidad e integración ambiental.</li>
-                        <li>Caracterización ambiental (línea de base).</li>
-                        <li>Diseño e implementación de programas de monitoreo de agua, suelo, aire.</li>
-                        <li>Capacitación ambiental.</li>
-                        <li>Coordinación de monitoreos participativos.</li>
-                        <li>Documentación regulatoria.</li>
-                        <li>Negociación con agencias reguladoras. </li>
-                        <li>Informes de cumplimiento.</li>
-                        <li id='topo'>Gestión de datos ambientales.</li>
+                        <li><FormattedMessage id="environment.impactAssessment" /></li>
+                        <li><FormattedMessage id="environment.auditsAndDiagnostics" /></li>
+                        <li><FormattedMessage id="environment.remediationPlans" /></li>
+                        <li><FormattedMessage id="environment.environmentalRisk" /></li>
+                        <li><FormattedMessage id="environment.sustainabilityFeasibility" /></li>
+                        <li><FormattedMessage id="environment.baselineCharacterization" /></li>
+                        <li><FormattedMessage id="environment.monitoringPrograms" /></li>
+                        <li><FormattedMessage id="environment.environmentalTraining" /></li>
+                        <li><FormattedMessage id="environment.participatoryMonitoring" /></li>
+                        <li><FormattedMessage id="environment.regulatoryDocumentation" /></li>
+                        <li><FormattedMessage id="environment.regulatorNegotiation" /> </li>
+                        <li><FormattedMessage id="environment.complianceReports" /></li>
+                        <li id='topo'><FormattedMessage id="environment.dataManagement" /></li>
                     </ul>
                 </div>
             </div>
@@ -300,7 +286,7 @@ function Home() {
         </div>
 
         <div  className='container topographyContainer'>
-            <h3 className='main-sections-title '>TOPOGRAFIA</h3>
+            <h3 className='main-sections-title '><FormattedMessage id="topography.description" /></h3>
             <div className="textFlex">
                 <div>
 
@@ -309,14 +295,14 @@ function Home() {
                     <br />
                     <br />
                     <ul className='list-texts listHome'>
-                        <li>Diseño, calculo y ejecución de obras civiles.</li>
-                        <li>Diseño y ejecución de caminos</li>
-                        <li>Análisis de hidrología. Diseño y cálculo de obras hidráulicas</li>
-                        <li>Mensuras en general</li>
-                        <li>Modelos digitales de elevación</li>
-                        <li>Nivelaciones</li>
-                        <li>Explanaciones</li>
-                        <li>Obtención de curvas de nivel</li>
+                        <li><FormattedMessage id="topography.civilWorks" /></li>
+                        <li><FormattedMessage id="topography.roadDesign" /></li>
+                        <li><FormattedMessage id="topography.hydrologyAnalysis" /></li>
+                        <li><FormattedMessage id="topography.generalSurveying" /></li>
+                        <li><FormattedMessage id="topography.digitalElevationModels" /></li>
+                        <li><FormattedMessage id="topography.leveling" /></li>
+                        <li><FormattedMessage id="topography.excavations" /></li>
+                        <li><FormattedMessage id="topographycontourMapping" /></li>
 
                     </ul>
                 </div>
