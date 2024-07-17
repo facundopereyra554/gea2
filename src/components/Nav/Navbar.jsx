@@ -1,8 +1,9 @@
 import { Link} from "react-router-dom"
-import React, { useState , useEffect } from 'react'
+import  React, { useState , useEffect } from 'react'
 import "./Navbar.css"
-
-function Navbar(){
+import LanguageButton from "./LanguageButton";
+import { FormattedMessage, useIntl} from 'react-intl';
+function Navbar({setLocale, locale}){
 
     const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -97,7 +98,7 @@ function Navbar(){
 
                                 <li className="menu-item">
                                     <a href="#aboutGea">
-                                        SOBRE GEA
+                                        <FormattedMessage id="nav.us" />
                                     </a>
                                 </li>
 
@@ -130,10 +131,13 @@ function Navbar(){
                                 </li>
 
                                 <li className="menu-item">
-                                    <a href="#Contacto">
-                                        CONTACTO 
-                                    </a>
+                                    <a href="#Contacto">CONTACTO </a>
                                 </li>
+
+                                <li className="menu-item">
+                                    <LanguageButton setLocale={setLocale} locale={locale}/>
+                                </li>
+
                             </ul>
                         </nav>
                     </div>

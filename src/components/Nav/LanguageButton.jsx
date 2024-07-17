@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Nav.css'; // Assuming the new styles will be added here
+import './Navbar.css'; 
 
 const LanguageButton = ({ setLocale, locale }) => {
 

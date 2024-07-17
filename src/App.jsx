@@ -4,12 +4,12 @@ import Home from './components/Home/Home'
 import Hidro from './components/Hidro/Hidro'
 import Navbar from './components/Nav/Navbar'
 
-function App() {
+function App({setLocale, locale}) {
 
     return (
         <>
         <BrowserRouter>
-            <Navbar />
+            <Navbar setLocale={setLocale}  locale={locale}/>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/Hidrogeologia' element={<Hidro />} />

@@ -1,147 +1,137 @@
 {
-    "aboutUs": {
-      "ourHistory": "Gea personifies the origin of life, being the divinity thatembodies the Earth, femininity and the fullness of strength. ",
-      "ourMission": "Gea represents the earth, but also the vital element of water. ",
-      "ourVision": "It symbolizes that constant flow, an inexhaustible source of creation.",
-      "ourGoal": "GEA focuses on providing professional geological advice and technical solutions."
-    },
-    "team": {
-      "teamIntro": "Our team is composed of a multidisciplinary staff that includes hydrogeologists, geologists and experts from various branches of earth sciences."
-    },
-    "services": {
-      "hydrology": {
-        "description": "Our group offers specific tools and accurate quality data management to help understand hydrological resources.",
-        "valueAddition": "Add value to the resources studied through our industry experience.",
-        "reliability": "To guarantee the reliability of our services by complying with the current regulations and policies of the employer company.",
-        "adaptability": "To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.",
-        "leadership": "To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. ",
-        "clientUnderstanding": "With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers."
-      },
-      "hydrogeology": "HYDROGEOLOGY",
-      "industries": {
-        "miningAndAgriculture": "FOR THE METALLIC AND NON-METALLIC MINING INDUSTRY (Lithium), AGRICULTURE, AND URBAN DEVELOPMENTS"
-      },
-      "prefeasibility": "Pre-feasibility studies",
-      "gisAnalysis": "Watershed analysis using GIS",
-      "explorationAuthorizations": "Obtaining authorizations for groundwater exploration and licenses for exploitation",
-      "explorationPrograms": "Exploration programs through surface geophysics",
-      "hydrogeologicalCharacterization": "Hydrogeological characterization",
-      "waterBalanceStudies": "Water balance studies",
-      "drillingPrograms": "Drilling programs based on the scheduled exploration timelines",
-      "dataCollectionPrograms": "Data collection programs",
-      "wellTechnicalDirection": "Technical management of wells",
-      "pumpingTests": "Efficiency tests of pumping wells and their rehabilitation",
-      "aquiferEvaluation": "Evaluation of aquifers for sustainable groundwater supply",
-      "wellFieldDesign": "Design, installation, and optimization of well fields and monitoring networks",
-      "monitoringSystem": "Monitoring system / sampling program design. QA/QC",
-      "conceptualModel": "Conceptual development of the hydrogeological model. Development of numericalmodel input",
-      "monitoringProgram": "Design / implementation of the monitoring program",
-      "sevMethod": "VERTICAL ELECTRICAL SOUNDING – VES",
-      "sevDescription": "It is an economical method used prior to making decisions about drilling a well.",
-      "sevBenefits": {
-        "electricalProperties": "It allows understanding the electrical properties of subsurface materials",
-        "unsaturatedThickness": "It allows defining unsaturated thicknesses",
-        "saturatedThickness": "Defining saturated thicknesses",
-        "aquiferInterfaces": "Understanding interfaces of different aquifers: fresh, brackish, salty.",
-        "wellDepthProjection": "It allows projecting the depth of a well.",
-        "tentativeDesign": "It allows tentatively designing a well.",
-        "geoElectricalSections": "With several correlated geoelectric sections in depth, a geoelectric profile can be created."
-      },
-      "wellGeology": "WELL LOGGING GEOPHYSICS",
-      "wellLogging": {
-        "description": "Well logging is a technique that allows the measurement, along the well, of the electrical characteristics of geological formations and the fluids contained within them. Through interpretation, it provides a forecast of the potential and quality of the subsurface hydrogeological resources.",
-        "parameters": "Geophysical parameters are represented vertically through curves provided by electric well logging. The curves display values for spontaneous potential (SP), point resistivity (SPR), short normal resistivity (SNR), long normal resistivity (LNR), and natural gamma (NG) simultaneously",
-        "curveAnalysis": "With the curves obtained from Electric Well Logging and their comparison, it is possible to define:"
+    "nav.us": "ABOUT GEA",
+ 
 
-      },
-      "curveAnalysisDetails": {
-        "lithology": "Lithology",
-        "aquifers": "Different aquifers",
-        "staticWaterLevel": "The static water level",
-        "aquiferThickness": "Aquifer thickness",
-        "wellCompletionDesign": "Design well development, filter placement, and blind casing"
-      },
-      "technicalDirection": {
-        "description": "WELL TECHNICAL MANAGEMENT",
-        "mudLogging": "Geological well control or Mud Logging is a technical activity that plays a key role during drilling operations.",
-        "dataManagement": "It involves the collection, storage, and interpretation of geological data obtained during well drilling.",
-        "fieldGeologistPresence": "This is carried out with the presence of a field Geologist on the drilling platform.",
-        "rotaryDrillingControl": "Geological control tasks in rotary drilling:"
-      },
-      "rotaryDrillingTasks": {
-        "siteManagement": "Direct the work",
-        "operationalDecisions": "Make operational decisions",
-        "cuttingLogging": "Geological logging of cuttings",
-        "rockSamplesCollection": "Collection of rock/sediment samples",
-        "returnTimeCalculation": "Calculation of return time",
-        "mudControl": "Control of drilling mud",
-        "wellCompletion": "Well completion",
-        "pumpingAnalysis": "Pumping analysis",
-        "waterParameters": "Measurement of physical water parameters",
-        "operationTimeControl": "Control operation time",
-        "safetyControl": "Ensure operational safety"
-      },
-      "wellFilming": {
-        "description": "WELL FILMING",
-        "pipeInspection": "Pipe inspection",
-        "filterCondition": "Condition of filters",
-        "pipeJoints": "Pipe joints",
-        "bottomSedimentation": "Sedimentation at the well bottom",
-        "obstructions": "Obstructions"
-      },
-      "pumpInstallation": {
-        "description": "INSTALLATION - REMOVAL OF SUBMERSIBLE PUMPS",
-        "equipmentChanges": "Equipment changes ",
-        "hydraulicEvaluations": "Hydraulic evaluations",
-        "geochemicalEvaluations": "Geochemical evaluations"
-      },
-      "wellHeadAndManifold": {
-        "description": "WELLHEAD AND MANIFOLD ASSEMBLY",
-        "governmentStandards": "According to current government regulations",
-        "systemChanges": "System changes",
-        "measurementImprovements": "Improvements in measurement systems"
-      },
-      "mining": {
-        "description": "MINING",
-        "explorationPrograms": "Presentation of exploration programs to government organizations",
-        "explorationPermits": "Obtaining exploration permits",
-        "gisProcessing": "Prospecting / Exploration / GIS processing and satellite imagery",
-        "geologicalMapping": "Geological map",
-        "structuralMapping": "Structural mapping. Alteration mapping",
-        "thematicMapping": "Thematic geochemical mapping",
-        "samplingProtocols": "Programming, development, and execution of sampling protocols applied to different types of deposits",
-        "qaQc": "QA/QC Geological well control",
-        "geologicalLogging": "Geological logging and geotechnical logging, photographic record",
-        "dataManagement": "Database generation. Final exploration/prospecting report",
-        "projectEvaluation": "Mining project evaluation"
-      },
-      "environment": {
-        "description": "ENVIRONMENT",
-        "impactAssessment": "Environmental and social impact report for the stages of prospecting, exploration, and mining exploitation, urban developments",
-        "auditsAndDiagnostics": "Environmental audits and diagnostics",
-        "remediationPlans": "Remediation plans ",
-        "environmentalRisk": "Environmental risk and liability",
-        "sustainabilityFeasibility": "Feasibility of sustainability and environmental integration",
-        "baselineCharacterization": "Environmental characterization (baseline)",
-        "monitoringPrograms": "Design and implementation of water, soil, and air monitoring programs",
-        "environmentalTraining": "Environmental training",
-        "participatoryMonitoring": "Coordination of participatory monitoring",
-        "regulatoryDocumentation": "Regulatory documentation",
-        "regulatorNegotiation": "Negotiation with regulatory agencies",
-        "complianceReports": "Compliance reports",
-        "dataManagement": "Environmental data management"
-      },
-      "topography": {
-        "description": "",
-        "civilWorks": "Design, calculation, and execution of civil works",
-        "roadDesign": "Design and construction of roads",
-        "hydrologyAnalysis": "Hydrology analysis. Design and calculation of hydraulic works",
-        "generalSurveying": "General measurements",
-        "digitalElevationModels": "Digital elevation models",
-        "leveling": "Leveling",
-        "excavations": "Excavations",
-        "contourMapping": "Obtaining contour lines"
-      }
-    }
-  }
+    "aboutUs.ourHistory": "Gea personifies the origin of life, being the divinity thatembodies the Earth, femininity and the fullness of strength. Gea represents the earth, but also the vital element of water. It symbolizes that constant flow, an inexhaustible source of creation. GEA focuses on providing professional geological advice and technical solutions.",
+    "teamIntro": "Our team is composed of a multidisciplinary staff that includes hydrogeologists, geologists and experts from various branches of earth sciences.",
+    
+    "team.description": "Our group offers specific tools and accurate quality data management to help understand hydrological resources.",
+    "team.valueAddition": "Add value to the resources studied through our industry experience.",
+    "team.reliability": "To guarantee the reliability of our services by complying with the current regulations and policies of the employer company.",
+    "team.adaptability": "To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.",
+    "team.leadership": "To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. ",
+    "team.clientUnderstanding": "With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.",
+    
+    "hydrogeology": "HYDROGEOLOGY",
+ 
+    "hydrogeology.miningAndAgriculture": "FOR THE METALLIC AND NON-METALLIC MINING INDUSTRY (Lithium), AGRICULTURE, AND URBAN DEVELOPMENTS",
+
+    "prefeasibility": "Pre-feasibility studies",
+    "gisAnalysis": "Watershed analysis using GIS",
+    "explorationAuthorizations": "Obtaining authorizations for groundwater exploration and licenses for exploitation",
+    "explorationPrograms": "Exploration programs through surface geophysics",
+    "hydrogeologicalCharacterization": "Hydrogeological characterization",
+    "waterBalanceStudies": "Water balance studies",
+    "drillingPrograms": "Drilling programs based on the scheduled exploration timelines",
+    "dataCollectionPrograms": "Data collection programs",
+    "wellTechnicalDirection": "Technical management of wells",
+    "pumpingTests": "Efficiency tests of pumping wells and their rehabilitation",
+    "aquiferEvaluation": "Evaluation of aquifers for sustainable groundwater supply",
+    "wellFieldDesign": "Design, installation, and optimization of well fields and monitoring networks",
+    "monitoringSystem": "Monitoring system / sampling program design. QA/QC",
+    "conceptualModel": "Conceptual development of the hydrogeological model. Development of numericalmodel input",
+    "monitoringProgram": "Design / implementation of the monitoring program",
+    "sevMethod": "VERTICAL ELECTRICAL SOUNDING – VES",
+    "sevDescription": "It is an economical method used prior to making decisions about drilling a well.",
+
+    "sevBenefits.electricalProperties": "It allows understanding the electrical properties of subsurface materials",
+    "sevBenefits.unsaturatedThickness": "It allows defining unsaturated thicknesses",
+    "sevBenefits.saturatedThickness": "Defining saturated thicknesses",
+    "sevBenefits.aquiferInterfaces": "Understanding interfaces of different aquifers: fresh, brackish, salty.",
+    "sevBenefits.wellDepthProjection": "It allows projecting the depth of a well.",
+    "sevBenefits.tentativeDesign": "It allows tentatively designing a well.",
+    "sevBenefits.geoElectricalSections": "With several correlated geoelectric sections in depth, a geoelectric profile can be created.",
+ 
+      "wellGeology": "WELL LOGGING GEOPHYSICS",
+    "wellLogging.description": "Well logging is a technique that allows the measurement, along the well, of the electrical characteristics of geological formations and the fluids contained within them. Through interpretation, it provides a forecast of the potential and quality of the subsurface hydrogeological resources.",
+    "wellLogging.parameters": "Geophysical parameters are represented vertically through curves provided by electric well logging. The curves display values for spontaneous potential (SP), point resistivity (SPR), short normal resistivity (SNR), long normal resistivity (LNR), and natural gamma (NG) simultaneously",
+    "wellLogging.curveAnalysis": "With the curves obtained from Electric Well Logging and their comparison, it is possible to define:",
+
+ 
+    "curveAnalysisDetails.lithology": "Lithology",
+    "curveAnalysisDetails.aquifers": "Different aquifers",
+    "curveAnalysisDetails.staticWaterLevel": "The static water level",
+    "curveAnalysisDetails.aquiferThickness": "Aquifer thickness",
+    "curveAnalysisDetails.wellCompletionDesign": "Design well development, filter placement, and blind casing.",
+   
+    "technicalDirection.description": "WELL TECHNICAL MANAGEMENT",
+    "technicalDirection.mudLogging": "Geological well control or Mud Logging is a technical activity that plays a key role during drilling operations.",
+    "technicalDirection.dataManagement": "It involves the collection, storage, and interpretation of geological data obtained during well drilling.",
+    "technicalDirection.fieldGeologistPresence": "This is carried out with the presence of a field Geologist on the drilling platform.",
+    "technicalDirection.rotaryDrillingControl": "Geological control tasks in rotary drilling:",
+
+    "rotaryDrillingTasks.siteManagement": "Direct the work",
+    "rotaryDrillingTasks.operationalDecisions": "Make operational decisions",
+    "rotaryDrillingTasks.cuttingLogging": "Geological logging of cuttings",
+    "rotaryDrillingTasks.rockSamplesCollection": "Collection of rock/sediment samples",
+    "rotaryDrillingTasks.returnTimeCalculation": "Calculation of return time",
+    "rotaryDrillingTasks.mudControl": "Control of drilling mud",
+    "rotaryDrillingTasks.wellCompletion": "Well completion",
+    "rotaryDrillingTasks.pumpingAnalysis": "Pumping analysis",
+    "rotaryDrillingTasks.waterParameters": "Measurement of physical water parameters",
+    "rotaryDrillingTasks.operationTimeControl": "Control operation time",
+    "rotaryDrillingTasks.safetyControl": "Ensure operational safety",
+    
+
+    "wellFilming.description": "WELL FILMING",
+    "wellFilming.pipeInspection": "Pipe inspection",
+    "wellFilming.filterCondition": "Condition of filters",
+    "wellFilming.pipeJoints": "Pipe joints",
+    "wellFilming.bottomSedimentation": "Sedimentation at the well bottom",
+    "wellFilmingobstructions": "Obstructions",
+
+    "pumpInstallation.description": "INSTALLATION - REMOVAL OF SUBMERSIBLE PUMPS",
+    "pumpInstallation.equipmentChanges": "Equipment changes ",
+    "pumpInstallation.hydraulicEvaluations": "Hydraulic evaluations",
+    "pumpInstallation.geochemicalEvaluations": "Geochemical evaluations",
+   
+
+    "wellHeadAndManifold.description": "WELLHEAD AND MANIFOLD ASSEMBLY",
+    "wellHeadAndManifold.governmentStandards": "According to current government regulations",
+    "wellHeadAndManifold.systemChanges": "System changes",
+    "wellHeadAndManifold.measurementImprovements": "Improvements in measurement systems",
+  
+
+    "mining.description": "MINING",
+    "mining.explorationPrograms": "Presentation of exploration programs to government organizations",
+    "mining.explorationPermits": "Obtaining exploration permits",
+    "mining.gisProcessing": "Prospecting / Exploration / GIS processing and satellite imagery",
+    "mining.geologicalMapping": "Geological map",
+    "mining.structuralMapping": "Structural mapping. Alteration mapping",
+    "mining.thematicMapping": "Thematic geochemical mapping",
+    "mining.samplingProtocols": "Programming, development, and execution of sampling protocols applied to different types of deposits",
+    "mining.qaQc": "QA/QC Geological well control",
+    "mining.geologicalLogging": "Geological logging and geotechnical logging, photographic record",
+    "mining.dataManagement": "Database generation. Final exploration/prospecting report",
+    "mining.projectEvaluation": "Mining project evaluation",
+
+
+    "environment.description": "ENVIRONMENT",
+    "environment.impactAssessment": "Environmental and social impact report for the stages of prospecting, exploration, and mining exploitation, urban developments",
+    "environment.auditsAndDiagnostics": "Environmental audits and diagnostics",
+    "environment.remediationPlans": "Remediation plans ",
+    "environment.environmentalRisk": "Environmental risk and liability",
+    "environment.sustainabilityFeasibility": "Feasibility of sustainability and environmental integration",
+    "environment.baselineCharacterization": "Environmental characterization (baseline)",
+    "environment.monitoringPrograms": "Design and implementation of water, soil, and air monitoring programs",
+    "environment.environmentalTraining": "Environmental training",
+    "environment.participatoryMonitoring": "Coordination of participatory monitoring",
+    "environment.regulatoryDocumentation": "Regulatory documentation",
+    "environment.regulatorNegotiation": "Negotiation with regulatory agencies",
+    "environment.complianceReports": "Compliance reports",
+    "environment.dataManagement": "Environmental data management",
+
+
+    "topography.description": "",
+    "topography.civilWorks": "Design, calculation, and execution of civil works",
+    "topography.roadDesign": "Design and construction of roads",
+    "topography.hydrologyAnalysis": "Hydrology analysis. Design and calculation of hydraulic works",
+    "topography.generalSurveying": "General measurements",
+    "topography.digitalElevationModels": "Digital elevation models",
+    "topography.leveling": "Leveling",
+    "topography.excavations": "Excavations",
+    "topographycontourMapping": "Obtaining contour lines"
+   
+    
+}
   

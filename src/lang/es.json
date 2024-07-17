@@ -1,146 +1,138 @@
 {
-    "aboutUs": {
-      "ourHistory": "Gea personifica el origen de la vida, siendo la divinidad que encarna a la Tierra, la feminidad y la plenitud de la fortaleza.",
-      "ourMission": "Gea representa la tierra, pero también el elemento vital del agua.",
-      "ourVision": "Ella simboliza ese flujo constante, una fuente inagotable de creación.",
-      "ourGoal": "GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas."
-    },
-    "team": {
-      "teamIntro": "Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra."
-    },
-    "services": {
-      "hydrology": {
-        "description": "Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.",
-        "valueAddition": "Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria.",
-        "reliability": "Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora.",
-        "adaptability": "Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.",
-        "leadership": "Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna.",
-        "clientUnderstanding": "Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes."
-      },
-      "hydrogeology": "HIDROGEOLOGÍA",
-      "industries": {
-        "miningAndAgriculture": "PARA LA INDUSTRIA MINERA METALIFERA- NO METALIFERA (Litio) AGRICOLA - URBANIZACIONES"
-      },
-      "prefeasibility": "Estudios de prefactibilidad",
-      "gisAnalysis": "Análisis de cuenca a partir de GIS",
-      "explorationAuthorizations": "Obtención de autorizaciones para exploración de agua subterránea y de licencias para explotación",
-      "explorationPrograms": "Programas de exploración a través de geofísica de superficie",
-      "hydrogeologicalCharacterization": "Caracterización hidrogeológica",
-      "waterBalanceStudies": "Estudios de balance hídrico",
-      "drillingPrograms": "Programas de perforaciones en función de los tiempos previstos para la exploración",
-      "dataCollectionPrograms": "Programas de recolección de datos",
-      "wellTechnicalDirection": "Dirección técnica de pozos",
-      "pumpingTests": "Pruebas de eficiencia de pozos de bombeo y rehabilitación de los mismos",
-      "aquiferEvaluation": "Evaluación de acuíferos para abastecimiento sostenible de agua subterránea",
-      "wellFieldDesign": "Diseño, instalación y optimización de campos de pozos y redes de monitoreo",
-      "monitoringSystem": "Sistema de monitoreo / diseño del programa de muestreo. QA/QC",
-      "conceptualModel": "Desarrollo conceptual del modelo hidrogeológico. Desarrollo de entrada de modelo numérico",
-      "monitoringProgram": "Diseño / implementación del programa de monitoreo",
-      "sevMethod": "SONDEO ELÉCTRICO VERTICAL – SEV",
-      "sevDescription": "Es un método económico previo a la toma de decisiones para colocar un pozo de perforación.",
-      "sevBenefits": {
-        "electricalProperties": "Permite Conocer las propiedades eléctricas de los materiales que constituyen del subsuelo",
-        "unsaturatedThickness": "Permite definir espesores no saturados",
-        "saturatedThickness": "Definir espesores saturados",
-        "aquiferInterfaces": "Conocer interfases de diferentes acuíferos dulce, salobres, salados.",
-        "wellDepthProjection": "Permite proyectar la profundidad de un pozo.",
-        "tentativeDesign": "Permite diseñar tentativamente un pozo.",
-        "geoElectricalSections": "Con varias secciones geo eléctricas correlacionados en profundidad se puede crear corte geo eléctrica."
-      },
-      "wellGeology": "GEOFÍSICA DE POZO",
-      "wellLogging": {
-        "description": "El perfilaje de pozo es una técnica que permite la medición, a lo largo del pozo, de las características eléctricas de las formaciones geológicas y de los fluidos contenidos en ellas, logrando mediante su interpretación un pronóstico del potencial y la calidad de los recursos hidrogeológicos del subsuelo.",
-        "parameters": "Los parámetros geofísicos se representan verticalmente a partir de curvas que otorga el perfilaje eléctrico de pozo. En las curvas se pueden leer los valores de potencial espontáneo (SP), resistividad puntual (SPR), resistividad normal corta (RNC) , de resistividad normal larga (RNL) y gamma natural (GM) en forma simultánea",
-        "curveAnalysis": "Con las curvas obtenidas del Perfilaje Eléctrico y su comparación se podrá definir:"
-      },
-      "curveAnalysisDetails": {
-        "lithology": "Litología",
-        "aquifers": "Definir distintos acuíferos",
-        "staticWaterLevel": "Definir el nivel estático de agua",
-        "aquiferThickness": "Conocer el espesor del acuífero",
-        "wellCompletionDesign": "Diseñar la habilitación de pozos, colocación de filtros y cañería ciega"
-      },
-      "technicalDirection": {
-        "description": "DIRECCIÓN TÉCNICA DE POZO",
-        "mudLogging": "El control geológico de pozo o Mud Logging es una actividad técnica que juega un papel clave durante las perforaciones.",
-        "dataManagement": "Consiste en la recopilación, almacenamiento e interpretación de datos geológicos que se obtienen durante la perforación de pozos.",
-        "fieldGeologistPresence": "Se desarrolla con la presencia de un Geólogo de campo en la plataforma de perforación",
-        "rotaryDrillingControl": "Tareas de control geológico en perforaciones rotary:"
-      },
-      "rotaryDrillingTasks": {
-        "siteManagement": "Dirigir la obra",
-        "operationalDecisions": "Toma de decisiones operativas",
-        "cuttingLogging": "Logueo geológico de cutting",
-        "rockSamplesCollection": "Recolección de muestras de roca/sedimentos",
-        "returnTimeCalculation": "Calculo del tiempo de retorno",
-        "mudControl": "Control del lodo de perforación",
-        "wellCompletion": "Terminación de pozo",
-        "pumpingAnalysis": "Análisis de Bombeo",
-        "waterParameters": "Toma de parámetros físicos del agua",
-        "operationTimeControl": "Control del tiempo de las operaciones",
-        "safetyControl": "Controlar la seguridad de las operaciones"
-      },
-      "wellFilming": {
-        "description": "FILMACIÓN DE POZO",
-        "pipeInspection": "Inspección de cañería",
-        "filterCondition": "Estado de filtros",
-        "pipeJoints": "Uniones entre cañerías",
-        "bottomSedimentation": "Sedimentación del fondo del pozo",
-        "obstructions": "Obturaciones"
-      },
-      "pumpInstallation": {
-        "description": "INSTALACIÓN - DESINSTALACIÓN DE BOMBAS SUMERGIBLES",
-        "equipmentChanges": "Cambios de equipos",
-        "hydraulicEvaluations": "Evaluaciones hidráulicas",
-        "geochemicalEvaluations": "Evaluaciones geoquímicas"
-      },
-      "wellHeadAndManifold": {
-        "description": "ARMADO DE BROCAL Y MANIFOL",
-        "governmentStandards": "Según normativa gubernamentales vigentes",
-        "systemChanges": "Cambios de sistemas",
-        "measurementImprovements": "Mejoras de sistemas de medición"
-      },
-      "mining": {
-        "description": "MINERÍA",
-        "explorationPrograms": "Presentación de programas de exploración a organizaciones gubernamentales",
-        "explorationPermits": "Obtención de permisos de exploración",
-        "gisProcessing": "Prospección / Exploración Procesamiento GIS e imágenes satelitales",
-        "geologicalMapping": "Mapa geológico",
-        "structuralMapping": "Mapeo estructural. Mapeo de alteraciones",
-        "thematicMapping": "Mapeo temáticos geoquímicos",
-        "samplingProtocols": "Programación, elaboracion y ejecucion de protocolos de muestreos aplicado a diferentes tipologías de yacimientos",
-        "qaQc": "QA/QC Control geológico de pozo",
-        "geologicalLogging": "Logueo geológico y logueo geotécnico registro fotográfico",
-        "dataManagement": "Generación de base de datos. Informe final de exploración/prospección",
-        "projectEvaluation": "Evaluación de proyectos mineros"
-      },
-      "environment": {
-        "description": "MEDIO AMBIENTE",
-        "impactAssessment": "Informe de impacto ambiental y social para las etapas de prospección, exploración y explotación minera, urbanizaciones",
-        "auditsAndDiagnostics": "Auditorías y diagnósticos ambientales",
-        "remediationPlans": "Planes remediación",
-        "environmentalRisk": "Riesgo y pasivo ambiental",
-        "sustainabilityFeasibility": "Factibilidad de sustentabilidad e integración ambiental",
-        "baselineCharacterization": "Caracterización ambiental (línea de base)",
-        "monitoringPrograms": "Diseño e implementación de programas de monitoreo de agua, suelo, aire",
-        "environmentalTraining": "Capacitación ambiental",
-        "participatoryMonitoring": "Coordinación de monitoreos participativos",
-        "regulatoryDocumentation": "Documentación regulatoria",
-        "regulatorNegotiation": "Negociación con agencias reguladoras",
-        "complianceReports": "Informes de cumplimiento",
-        "dataManagement": "Gestión de datos ambientales"
-      },
-      "topography": {
-        "description": "TOPOGRAFÍA",
-        "civilWorks": "Diseño, calculo y ejecución de obras civiles",
-        "roadDesign": "Diseño y ejecución de caminos",
-        "hydrologyAnalysis": "Análisis de hidrología. Diseño y cálculo de obras hidráulicas",
-        "generalSurveying": "Mensuras en general",
-        "digitalElevationModels": "Modelos digitales de elevación",
-        "leveling": "Nivelaciones",
-        "excavations": "Explanaciones",
-        "contourMapping": "Obtención de curvas de nivel"
-      }
-    }
-  }
+
+    "nav.us": "SOBRE GEA",
+    "aboutUs.ourHistory": "Gea personifica el origen de la vida, siendo la divinidad que encarna a la Tierra, la feminidad y la plenitud de la fortaleza. Gea representa la tierra, pero también el elemento vital del agua. Ella simboliza ese flujo constante, una fuente inagotable de creación. Ella simboliza ese flujo constante, una fuente inagotable de creación. GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas.",
+    "teamIntro": "Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra.",
+
+
+    "team.description": "Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.",
+    "team.valueAddition": "Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria.",
+    "team.reliability": "Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora.",
+    "team.adaptability": "Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.",
+    "team.leadership": "Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna.",
+    "team.clientUnderstanding": "Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.",
+    
+    "hydrogeology": "HIDROGEOLOGÍA",
+    "hydrology.miningAndAgriculture": "PARA LA INDUSTRIA MINERA METALIFERA- NO METALIFERA (Litio) AGRICOLA - URBANIZACIONES",
+   
+    "prefeasibility": "Estudios de prefactibilidad",
+    "gisAnalysis": "Análisis de cuenca a partir de GIS",
+    "explorationAuthorizations": "Obtención de autorizaciones para exploración de agua subterránea y de licencias para explotación",
+    "explorationPrograms": "Programas de exploración a través de geofísica de superficie",
+    "hydrogeologicalCharacterization": "Caracterización hidrogeológica",
+    "waterBalanceStudies": "Estudios de balance hídrico",
+    "drillingPrograms": "Programas de perforaciones en función de los tiempos previstos para la exploración",
+    "dataCollectionPrograms": "Programas de recolección de datos",
+    "wellTechnicalDirection": "Dirección técnica de pozos",
+    "pumpingTests": "Pruebas de eficiencia de pozos de bombeo y rehabilitación de los mismos",
+    "aquiferEvaluation": "Evaluación de acuíferos para abastecimiento sostenible de agua subterránea",
+    "wellFieldDesign": "Diseño, instalación y optimización de campos de pozos y redes de monitoreo",
+    "monitoringSystem": "Sistema de monitoreo / diseño del programa de muestreo. QA/QC",
+    "conceptualModel": "Desarrollo conceptual del modelo hidrogeológico. Desarrollo de entrada de modelo numérico",
+    "monitoringProgram": "Diseño / implementación del programa de monitoreo",
+    "sevMethod": "SONDEO ELÉCTRICO VERTICAL – SEV",
+    "sevDescription": "Es un método económico previo a la toma de decisiones para colocar un pozo de perforación.",
+  
+    "sevBenefits.electricalProperties": "Permite Conocer las propiedades eléctricas de los materiales que constituyen del subsuelo",
+    "sevBenefits.unsaturatedThickness": "Permite definir espesores no saturados",
+    "sevBenefits.saturatedThickness": "Definir espesores saturados",
+    "sevBenefits.aquiferInterfaces": "Conocer interfases de diferentes acuíferos dulce, salobres, salados.",
+    "sevBenefits.wellDepthProjection": "Permite proyectar la profundidad de un pozo.",
+    "sevBenefits.tentativeDesign": "Permite diseñar tentativamente un pozo.",
+    "sevBenefits.geoElectricalSections": "Con varias secciones geo eléctricas correlacionados en profundidad se puede crear corte geo eléctrica.",
+      
+    "wellGeology": "GEOFÍSICA DE POZO",
+
+    "wellLogging.description": "El perfilaje de pozo es una técnica que permite la medición, a lo largo del pozo, de las características eléctricas de las formaciones geológicas y de los fluidos contenidos en ellas, logrando mediante su interpretación un pronóstico del potencial y la calidad de los recursos hidrogeológicos del subsuelo.",
+    "wellLogging.parameters": "Los parámetros geofísicos se representan verticalmente a partir de curvas que otorga el perfilaje eléctrico de pozo. En las curvas se pueden leer los valores de potencial espontáneo (SP), resistividad puntual (SPR), resistividad normal corta (RNC) , de resistividad normal larga (RNL) y gamma natural (GM) en forma simultánea",
+    "wellLogging.curveAnalysis": "Con las curvas obtenidas del Perfilaje Eléctrico y su comparación se podrá definir:",
+   
+
+    "curveAnalysisDetails.lithology": "Litología",
+    "curveAnalysisDetails.aquifers": "Definir distintos acuíferos",
+    "curveAnalysisDetails.staticWaterLevel": "Definir el nivel estático de agua",
+    "curveAnalysisDetails.aquiferThickness": "Conocer el espesor del acuífero",
+    "curveAnalysisDetails.wellCompletionDesign": "Diseñar la habilitación de pozos, colocación de filtros y cañería ciega",
+    
+    "technicalDirection.description": "DIRECCIÓN TÉCNICA DE POZO",
+    "technicalDirection.mudLogging": "El control geológico de pozo o Mud Logging es una actividad técnica que juega un papel clave durante las perforaciones.",
+    "technicalDirection.dataManagement": "Consiste en la recopilación, almacenamiento e interpretación de datos geológicos que se obtienen durante la perforación de pozos.",
+    "technicalDirection.fieldGeologistPresence": "Se desarrolla con la presencia de un Geólogo de campo en la plataforma de perforación",
+    "technicalDirection.rotaryDrillingControl": "Tareas de control geológico en perforaciones rotary:",
+
+    "rotaryDrillingTasks.siteManagement": "Dirigir la obra",
+    "rotaryDrillingTasks.operationalDecisions": "Toma de decisiones operativas",
+    "rotaryDrillingTasks.cuttingLogging": "Logueo geológico de cutting",
+    "rotaryDrillingTasks.rockSamplesCollection": "Recolección de muestras de roca/sedimentos",
+    "rotaryDrillingTasks.returnTimeCalculation": "Calculo del tiempo de retorno",
+    "rotaryDrillingTasks.mudControl": "Control del lodo de perforación",
+    "rotaryDrillingTasks.wellCompletion": "Terminación de pozo",
+    "rotaryDrillingTasks.pumpingAnalysis": "Análisis de Bombeo",
+    "rotaryDrillingTasks.waterParameters": "Toma de parámetros físicos del agua",
+    "rotaryDrillingTasks.operationTimeControl": "Control del tiempo de las operaciones",
+    "rotaryDrillingTasks.safetyControl": "Controlar la seguridad de las operaciones",
+  
+
+    "wellFilming.description": "FILMACIÓN DE POZO",
+    "wellFilming.pipeInspection": "Inspección de cañería",
+    "wellFilming.filterCondition": "Estado de filtros",
+    "wellFilming.pipeJoints": "Uniones entre cañerías",
+    "wellFilming.bottomSedimentation": "Sedimentación del fondo del pozo",
+    "wellFilming.obstructions": "Obturaciones",
+
+   
+    "pumpInstallation.description": "INSTALACIÓN - DESINSTALACIÓN DE BOMBAS SUMERGIBLES",
+    "pumpInstallation.equipmentChanges": "Cambios de equipos",
+    "pumpInstallation.hydraulicEvaluations": "Evaluaciones hidráulicas",
+    "pumpInstallation.geochemicalEvaluations": "Evaluaciones geoquímicas",
+  
+
+    "wellHeadAndManifold.description": "ARMADO DE BROCAL Y MANIFOL",
+    "wellHeadAndManifold.governmentStandards": "Según normativa gubernamentales vigentes",
+    "wellHeadAndManifold.systemChanges": "Cambios de sistemas",
+    "wellHeadAndManifoldmeasurementImprovements": "Mejoras de sistemas de medición",
+ 
+     
+    "mining.description": "MINERÍA",
+    "mining.explorationPrograms": "Presentación de programas de exploración a organizaciones gubernamentales",
+    "mining.explorationPermits": "Obtención de permisos de exploración",
+    "mining.gisProcessing": "Prospección / Exploración Procesamiento GIS e imágenes satelitales",
+    "mining.geologicalMapping": "Mapa geológico",
+    "mining.structuralMapping": "Mapeo estructural. Mapeo de alteraciones",
+    "mining.thematicMapping": "Mapeo temáticos geoquímicos",
+    "mining.samplingProtocols": "Programación, elaboracion y ejecucion de protocolos de muestreos aplicado a diferentes tipologías de yacimientos",
+    "mining.qaQc": "QA/QC Control geológico de pozo",
+    "mining.geologicalLogging": "Logueo geológico y logueo geotécnico registro fotográfico",
+    "mining.dataManagement": "Generación de base de datos. Informe final de exploración/prospección",
+    "mining.projectEvaluation": "Evaluación de proyectos mineros",
+
+
+    "environment.description": "MEDIO AMBIENTE",
+    "environment.impactAssessment": "Informe de impacto ambiental y social para las etapas de prospección, exploración y explotación minera, urbanizaciones",
+    "environment.auditsAndDiagnostics": "Auditorías y diagnósticos ambientales",
+    "environment.remediationPlans": "Planes remediación",
+    "environment.environmentalRisk": "Riesgo y pasivo ambiental",
+    "environment.sustainabilityFeasibility": "Factibilidad de sustentabilidad e integración ambiental",
+    "environment.baselineCharacterization": "Caracterización ambiental (línea de base)",
+    "environment.monitoringPrograms": "Diseño e implementación de programas de monitoreo de agua, suelo, aire",
+    "environment.environmentalTraining": "Capacitación ambiental",
+    "environment.participatoryMonitoring": "Coordinación de monitoreos participativos",
+    "environment.regulatoryDocumentation": "Documentación regulatoria",
+    "environment.regulatorNegotiation": "Negociación con agencias reguladoras",
+    "environment.complianceReports": "Informes de cumplimiento",
+    "environment.dataManagement": "Gestión de datos ambientales",
+
+
+    "topography.description": "TOPOGRAFÍA",
+    "topography.civilWorks": "Diseño, calculo y ejecución de obras civiles",
+    "topography.roadDesign": "Diseño y ejecución de caminos",
+    "topography.hydrologyAnalysis": "Análisis de hidrología. Diseño y cálculo de obras hidráulicas",
+    "topography.generalSurveying": "Mensuras en general",
+    "topography.digitalElevationModels": "Modelos digitales de elevación",
+    "topography.leveling": "Nivelaciones",
+    "topography.excavations": "Explanaciones",
+    "topography.contourMapping": "Obtención de curvas de nivel"
+
+    
+}
   
