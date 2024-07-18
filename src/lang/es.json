@@ -1,16 +1,14 @@
 {
 
     "nav.us": "SOBRE GEA",
+    "nav.services": "NUESTRO SERVICIOS",
+    "nav.contact": "CONTACTO",
     "aboutUs.ourHistory": "Gea personifica el origen de la vida, siendo la divinidad que encarna a la Tierra, la feminidad y la plenitud de la fortaleza. Gea representa la tierra, pero también el elemento vital del agua. Ella simboliza ese flujo constante, una fuente inagotable de creación. Ella simboliza ese flujo constante, una fuente inagotable de creación. GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas.",
     "teamIntro": "Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra.",
 
-
-    "team.description": "Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.",
-    "team.valueAddition": "Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria.",
-    "team.reliability": "Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora.",
-    "team.adaptability": "Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.",
-    "team.leadership": "Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna.",
-    "team.clientUnderstanding": "Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.",
+    "team.objective": "GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas. Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra. Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.",
+    "team.valueAddition": "Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria. Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora. Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.",
+    "team.leadership": "Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.",
     
     "hydrogeology": "HIDROGEOLOGÍA",
     "hydrology.miningAndAgriculture": "PARA LA INDUSTRIA MINERA METALIFERA- NO METALIFERA (Litio) AGRICOLA - URBANIZACIONES",

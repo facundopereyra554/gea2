@@ -105,33 +105,33 @@ function Navbar({setLocale, locale}){
 
                                 <li className="menu-item menu-item-has-children">
                                     <a href="#" data-toggle="sub-menu" onClick={handleSubMenuClick}>
-                                        NUESTROS SERVICIOS
+                                        <FormattedMessage id="nav.services" />
                                         {/* <i className="plus"></i> */}
                                     </a>
                                     <ul className="sub-menu">
                                         <li className="menu-item menu-item-hover">
-                                            <a  href='#hidrogeo'>HIDROGEOLOGIA</a>
+                                            <a  href='#hidrogeo'><FormattedMessage id="hydrogeology" /></a>
                                         </li>
                                         <li className="menu-item menu-item-hover">
-                                            <a  href='#geofisica'>GEOFÍSICA DE POZO</a>
+                                            <a  href='#geofisica'><FormattedMessage id="wellGeology" /></a>
                                         </li>                                        
                                         <li className="menu-item menu-item-hover">
-                                            <a  href='#dirtec'>DIRECCIÓN TÉCNICA DE POZO</a>
+                                            <a  href='#dirtec'><FormattedMessage id="technicalDirection.description" /></a>
                                         </li>
                                         <li className="menu-item menu-item-hover">
-                                            <a  href='#mineria'>MINERÍA</a>
+                                            <a  href='#mineria'><FormattedMessage id="mining.description" /></a>
                                         </li>
                                         <li className="menu-item menu-item-hover">
-                                            <a  href='#medAmb'>MEDIO AMBIENTE</a>
+                                            <a  href='#medAmb'><FormattedMessage id="environment.description" /></a>
                                         </li>
                                         <li className="menu-item menu-item-hover">
-                                            <a  href='#topo'>TOPOGRAFIA</a>
+                                            <a  href='#topo'><FormattedMessage id="topography.description" /></a>
                                         </li>
                                     </ul>
                                 </li>
 
                                 <li className="menu-item">
-                                    <a href="#Contacto">CONTACTO </a>
+                                    <a href="#Contacto"><FormattedMessage id="nav.contact"/> </a>
                                 </li>
 
                                 <li className="menu-item">

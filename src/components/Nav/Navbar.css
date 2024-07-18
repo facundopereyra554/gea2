@@ -405,6 +405,29 @@ ul{
 	color: white;
 }
 
+.language-toggle {
+    /* Adjust these styles to match the height of other navbar elements */
+    display: block;
+    position: relative;
+}
+
+.language-button {
+    background-color: white;
+    padding: 5px;
+	border-radius: 2px;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.language-button.active {
+    background-color: #013f7c;
+    color: white;
+}
+
+
 
 @media (max-width:991px) {
 	.menu {

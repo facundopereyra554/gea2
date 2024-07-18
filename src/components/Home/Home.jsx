@@ -6,6 +6,7 @@ import './Home.css'
 import Hidrohome from './Hidrohome'
 import {FormattedMessage} from 'react-intl';
 
+import { useState } from 'react';
 
 import Img5 from "../../assets/gallery/img5.jpg";
 import Img17 from "../../assets/gallery/img17.jpg";
@@ -23,10 +24,45 @@ import ImgGal4 from "../../assets/gallery/imgGal4.jpg";
 import ImgGal5 from "../../assets/gallery/imgGal5.jpg";
 import ImgGal8 from "../../assets/gallery/imgGal8.jpg";
 
-function Home() {
+
+function Home({ setLocale, locale }) {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    const [textObj, setTextObj] = useState("");
+    const [teamValueAddition, setTeamValueAddition] = useState("");
+    const [teamLeadership, setTeamLeadership] = useState("");
+    const [long, setLong] = useState();
+
+    // useEffect(() => {
+    //     import(`./lang/${locale}.json`)
+    //         .then((messages) => {
+    //             setTextObj(messages.default.aboutUs.objectives);
+    //             setTeamValueAddition(messages.default.team.valueAddition);
+    //             setTeamLeadership(messages.default.team.leadership);
+    //         })
+    //         .catch((error) => {
+    //             console.error(`Error loading the language file for ${locale}:`, error);
+    //         });
+    // }, [locale]);
+
+    useEffect(() => {
+        if (locale === 'es') {
+            setTextObj("GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas. Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra. Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.") ;
+            setTeamValueAddition("Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria. Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora. Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.");
+            setTeamLeadership("cupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.");
+            setLong(200);
+        } else {
+            setTextObj("GEA focuses on providing professional geological advice and technical solutions. Our team is composed of multidisciplinary personnel, including hydrogeologists, geologists, and experts from various branches of earth sciences. Our group offers specific tools and accurate quality data management to help understand hydrological resources.");
+            setTeamValueAddition("Add value to the resources studied through our industry experience. To guarantee the reliability of our services by complying with the current regulations and policies of the employer company. To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.");
+            setTeamLeadership("To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.");
+            setLong(170);
+        }
+    }, [locale]);
+
+    console.log(textObj);
+
     return (
         <>
         <div style={{marginTop: '100px'}}>
@@ -35,58 +71,20 @@ function Home() {
 
         
         <div id='aboutGea' className='topInfo container'>
-            <h3 className='main-sections-title main-sections-title-long'>SOBRE GEA</h3>
+            <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="nav.us" /></h3>
             <br />
             <br />
             <br />
             <div className='geaAbout'>
             
                 <div>
-                    <Tarjeta 
-                        texto="El enfoque de GEA es brindar
-                        asesoramiento profesional geológico
-                        y soluciones técnicas.
-                        Nuestro equipo está formado por un equipo
-                        multidisciplinario entre hidrogeólogos,
-                        geólogos y profesionales de diferentes
-                        ramas de la ciencias de la tierra altamente
-                        capacitados que brindan herramientas
-                        específicas, manejo de datos precisos y de
-                        calidad para ayudar a comprender los
-                        recursos hidrológicos."
-                        limiteCaracteres={200}
-                        title="OBJETIVOS"/>
+                    <Tarjeta texto={textObj} limiteCaracteres={200} title="OBJETIVOS"/>
                 </div>
                 <div>
-                    <Tarjeta 
-                            texto="Agregar valor a los recursos estudiados
-                            mediante nuestra experiencia en
-                            la industria.
-                            Garantizar la fiabilidad de nuestros
-                            servicios al ajustarnos a las normativas
-                            y políticas actuales de la empresa
-                            empleadora.
-                            Otorgar confiabilidad en nuestros
-                            servicios, adaptándonos en las normas
-                            y políticas vigentes del empleador."
-                            limiteCaracteres={210}
-                            title="MISIÓN"/>
+                    <Tarjeta texto={teamValueAddition} limiteCaracteres={200} title="OBJETIVOS"/>
                 </div>
                 <div>
-                    <Tarjeta 
-                            texto="Ocupar un puesto de liderazgo en la
-                            promoción y ejecución de servicios
-                            mineros, con un firme compromiso hacia
-                            el fomento de un desarrollo responsable
-                            de la industria, respaldado por nuestra
-                            amplia experiencia en la región de la Puna.
-                            Gracias a nuestra trayectoria en proyectos
-                            emblemáticos de esta zona, estamos en
-                            posición de comprender las necesidades
-                            singulares tanto de la industria como de
-                            nuestros valiosos clientes."
-                            limiteCaracteres={210}
-                            title="VISIÓN"/>
+                    <Tarjeta texto={teamLeadership} limiteCaracteres={long} title="OBJETIVOS"/>
                 </div>
 
             </div>

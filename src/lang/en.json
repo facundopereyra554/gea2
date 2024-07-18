@@ -1,16 +1,15 @@
 {
     "nav.us": "ABOUT GEA",
+    "nav.services": "OUR SERVICES",
+    "nav.contact": "CONTACT",
  
 
     "aboutUs.ourHistory": "Gea personifies the origin of life, being the divinity thatembodies the Earth, femininity and the fullness of strength. Gea represents the earth, but also the vital element of water. It symbolizes that constant flow, an inexhaustible source of creation. GEA focuses on providing professional geological advice and technical solutions.",
     "teamIntro": "Our team is composed of a multidisciplinary staff that includes hydrogeologists, geologists and experts from various branches of earth sciences.",
     
-    "team.description": "Our group offers specific tools and accurate quality data management to help understand hydrological resources.",
-    "team.valueAddition": "Add value to the resources studied through our industry experience.",
-    "team.reliability": "To guarantee the reliability of our services by complying with the current regulations and policies of the employer company.",
-    "team.adaptability": "To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.",
-    "team.leadership": "To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. ",
-    "team.clientUnderstanding": "With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.",
+    "team.objective": "GEA focuses on providing professional geological advice and technical solutions. Our team is composed of multidisciplinary personnel, including hydrogeologists, geologists, and experts from various branches of earth sciences. Our group offers specific tools and accurate quality data management to help understand hydrological resources.",
+    "team.valueAddition": "Add value to the resources studied through our industry experience. To guarantee the reliability of our services by complying with the current regulations and policies of the employer company. To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.",
+    "team.leadership": "To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.",
     
     "hydrogeology": "HYDROGEOLOGY",
  
