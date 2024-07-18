@@ -78,13 +78,13 @@ function Home({ setLocale, locale }) {
             <div className='geaAbout'>
             
                 <div>
-                    <Tarjeta texto={textObj} limiteCaracteres={200} title="OBJETIVOS"/>
+                    <Tarjeta texto={textObj} limiteCaracteres={200} title="team.obj.title"/>
                 </div>
                 <div>
-                    <Tarjeta texto={teamValueAddition} limiteCaracteres={200} title="OBJETIVOS"/>
+                    <Tarjeta texto={teamValueAddition} limiteCaracteres={200} title="team.mision.title"/>
                 </div>
                 <div>
-                    <Tarjeta texto={teamLeadership} limiteCaracteres={long} title="OBJETIVOS"/>
+                    <Tarjeta texto={teamLeadership} limiteCaracteres={long} title="team.vision.title"/>
                 </div>
 
             </div>
@@ -177,7 +177,7 @@ function Home({ setLocale, locale }) {
                         <li><FormattedMessage id="rotaryDrillingTasks.waterParameters" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.operationTimeControl" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.safetyControl" /></li>
-                        <li>Base de datos.</li>
+                        <li><FormattedMessage id="technicalDirection.db" /></li>
                     </ul>
                 </div>
 

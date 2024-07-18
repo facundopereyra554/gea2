@@ -6,6 +6,10 @@
     "aboutUs.ourHistory": "Gea personifica el origen de la vida, siendo la divinidad que encarna a la Tierra, la feminidad y la plenitud de la fortaleza. Gea representa la tierra, pero también el elemento vital del agua. Ella simboliza ese flujo constante, una fuente inagotable de creación. Ella simboliza ese flujo constante, una fuente inagotable de creación. GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas.",
     "teamIntro": "Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra.",
 
+    "team.obj.title": "OBJETIVOS",
+    "team.mision.title": "MISIÓN",
+    "team.vision.title": "VISIÓN",
+
     "team.objective": "GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas. Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra. Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.",
     "team.valueAddition": "Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria. Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora. Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.",
     "team.leadership": "Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.",
@@ -59,6 +63,7 @@
     "technicalDirection.dataManagement": "Consiste en la recopilación, almacenamiento e interpretación de datos geológicos que se obtienen durante la perforación de pozos.",
     "technicalDirection.fieldGeologistPresence": "Se desarrolla con la presencia de un Geólogo de campo en la plataforma de perforación",
     "technicalDirection.rotaryDrillingControl": "Tareas de control geológico en perforaciones rotary:",
+    "technicalDirection.db": "Base de datos",
 
     "rotaryDrillingTasks.siteManagement": "Dirigir la obra",
     "rotaryDrillingTasks.operationalDecisions": "Toma de decisiones operativas",
@@ -131,8 +136,20 @@
     "topography.digitalElevationModels": "Modelos digitales de elevación",
     "topography.leveling": "Nivelaciones",
     "topography.excavations": "Explanaciones",
-    "topography.contourMapping": "Obtención de curvas de nivel"
+    "topography.contourMapping": "Obtención de curvas de nivel",
 
-    
+
+    "contactForm.title": "Formulario de Contacto",
+    "contactForm.info": "Información de contacto",
+
+
+    "contact.name": "Nombre",
+    "contact.email": "Correo electronico",
+    "contact.message": "Mensaje",
+    "contact.send": "Enviar",
+
+    "info.phone": "Telefóno"
+
+
 }
   

@@ -7,6 +7,11 @@
     "aboutUs.ourHistory": "Gea personifies the origin of life, being the divinity thatembodies the Earth, femininity and the fullness of strength. Gea represents the earth, but also the vital element of water. It symbolizes that constant flow, an inexhaustible source of creation. GEA focuses on providing professional geological advice and technical solutions.",
     "teamIntro": "Our team is composed of a multidisciplinary staff that includes hydrogeologists, geologists and experts from various branches of earth sciences.",
     
+
+    "team.obj.title": "OBJETIVES",
+    "team.mision.title": "MISSION",
+    "team.vision.title": "VISIÓN",
+
     "team.objective": "GEA focuses on providing professional geological advice and technical solutions. Our team is composed of multidisciplinary personnel, including hydrogeologists, geologists, and experts from various branches of earth sciences. Our group offers specific tools and accurate quality data management to help understand hydrological resources.",
     "team.valueAddition": "Add value to the resources studied through our industry experience. To guarantee the reliability of our services by complying with the current regulations and policies of the employer company. To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.",
     "team.leadership": "To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.",
@@ -59,6 +64,7 @@
     "technicalDirection.dataManagement": "It involves the collection, storage, and interpretation of geological data obtained during well drilling.",
     "technicalDirection.fieldGeologistPresence": "This is carried out with the presence of a field Geologist on the drilling platform.",
     "technicalDirection.rotaryDrillingControl": "Geological control tasks in rotary drilling:",
+    "technicalDirection.db": "Database",
 
     "rotaryDrillingTasks.siteManagement": "Direct the work",
     "rotaryDrillingTasks.operationalDecisions": "Make operational decisions",
@@ -130,7 +136,18 @@
     "topography.digitalElevationModels": "Digital elevation models",
     "topography.leveling": "Leveling",
     "topography.excavations": "Excavations",
-    "topographycontourMapping": "Obtaining contour lines"
+    "topographycontourMapping": "Obtaining contour lines",
+
+    "contactForm.title": "Contact Form",
+    "contactForm.info": "Contact Information",
+
+    "contact.name": "Name",
+    "contact.email": "Email",
+    "contact.message": "Message",
+    "contact.send": "Send",
+
+    "info.phone": "Phone"
+
    
     
 }

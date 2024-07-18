@@ -4,6 +4,7 @@ import './Footer.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import {FormattedMessage} from 'react-intl';
 
 const Footer = () => {
     const [formData, setFormData] = useState({
@@ -77,34 +78,34 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h2 className='titleFooter'>Formulario de Contacto</h2>
+                        <h2 className='titleFooter'><FormattedMessage id="contactForm.title" /></h2>
                         <br />
                         <br />
                         <form onSubmit={handleSubmit}>
                         <div className="form-group">
-                            <label htmlFor="name">Nombre:</label>
-                            <input type="text" className="form-control" id="name" placeholder="Ingrese su nombre" name="name" value={formData.name} onChange={handleChange} required />
+                            <label htmlFor="name"><FormattedMessage id="contact.name" /></label>
+                            <input type="text" className="form-control" id="name" name="name" value={formData.name} onChange={handleChange} required />
                         </div>
                         <br />
                         <div className="form-group">
-                            <label htmlFor="email">Email:</label>
-                            <input type="email" className="form-control" id="email" placeholder="Ingrese su email" name="email" value={formData.email} onChange={handleChange} required />
+                            <label htmlFor="email"><FormattedMessage id="contact.email" /></label>
+                            <input type="email" className="form-control" id="email" name="email" value={formData.email} onChange={handleChange} required />
                         </div>
                         <br />
                         <div className="form-group">
-                            <label htmlFor="message">Mensaje:</label>
-                            <textarea className="form-control" id="message" rows="3" placeholder="Mensaje" name="message" value={formData.message} onChange={handleChange} required></textarea>
+                            <label htmlFor="message"><FormattedMessage id="contact.message" /></label>
+                            <textarea className="form-control" id="message" rows="3" name="message" value={formData.message} onChange={handleChange} required></textarea>
                         </div>
                         <br />
-                        <button type="submit" className="btn btn-primary submitBtn">Enviar</button>
+                        <button type="submit" className="btn btn-primary submitBtn"><FormattedMessage id="contact.send" /></button>
                         </form>
                     </div>
                     <div className="col-md-6 extraInfo">
-                        <h2 className='titleFooter'>Información de Contacto</h2>
+                        <h2 className='titleFooter'><FormattedMessage id="contactForm.info" /></h2>
                         <br />
                         <br />
                         <div className='InfopER'>
-                            <p>Teléfono: +54 9 387 5321985  /  +54 9 387 5090264</p>
+                            <p><FormattedMessage id="info.phone" />: +54 9 387 5321985  /  +54 9 387 5090264</p>
                             <p>Email: info@gearecursoshidricos.com</p>
                             <div className='qrs'>
                                 <img src="../assets/qrNumber1.png" alt="" />

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import  { useState } from 'react';
+import { FormattedMessage} from 'react-intl';
 import './Tarjeta.css';
 
 const Tarjeta = ({ texto, limiteCaracteres,title,srcImg}) => {
@@ -11,7 +12,7 @@ const Tarjeta = ({ texto, limiteCaracteres,title,srcImg}) => {
 
   return (
     <div className="tarjeta">
-      <h3 className='textCardAbout'>{title}</h3>
+      <h3 className='textCardAbout'><FormattedMessage id={title} /></h3>
       <img src={srcImg} alt="" className='imgCardAbout' />
       <p>
         {expandido ? texto : texto.slice(0, limiteCaracteres)}
