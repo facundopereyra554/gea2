@@ -287,7 +287,7 @@ function Home({ setLocale, locale }) {
             <h3 className='main-sections-title '><FormattedMessage id="topography.description" /></h3>
             <div className="textFlex">
                 <div className='zoomImgContainer'>
-                    <img src="../assets/drone.jpg" className="" alt="..."/>
+                    <img src="../src/assets/drone.jpg" className="topographyImageDrone" alt="..."/>
                 </div>
                 <div>
                     <br />

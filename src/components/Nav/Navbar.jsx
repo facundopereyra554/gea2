@@ -134,7 +134,7 @@ function Navbar({setLocale, locale}){
                                     <a href="#Contacto"><FormattedMessage id="nav.contact"/> </a>
                                 </li>
 
-                                <li className="menu-item">
+                                <li className="menu-item buttonNav">
                                     <LanguageButton setLocale={setLocale} locale={locale}/>
                                 </li>
 

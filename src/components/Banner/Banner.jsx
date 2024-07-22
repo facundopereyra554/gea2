@@ -9,9 +9,9 @@ function Banner() {
             <div className="fixed textBannerP">
                 <img src="../assets/logo.png" alt="Logo" className='Logo' />
                 <h1 className="large">GEA</h1>
-                <p className='subTextBanner'> <span>Consultores</span> 
+                <p className='subTextBanner'> <span><FormattedMessage id="banner.title" /></span> 
                     <br />
-                    en recursos hídricos SRL
+                    <FormattedMessage id="banner.subTitle" />
                 </p>
                
             </div>
