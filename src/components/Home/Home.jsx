@@ -286,8 +286,8 @@ function Home({ setLocale, locale }) {
         <div  className='container topographyContainer'>
             <h3 className='main-sections-title '><FormattedMessage id="topography.description" /></h3>
             <div className="textFlex">
-                <div>
-
+                <div className='zoomImgContainer'>
+                    <img src="../assets/drone.jpg" className="" alt="..."/>
                 </div>
                 <div>
                     <br />
@@ -300,7 +300,7 @@ function Home({ setLocale, locale }) {
                         <li><FormattedMessage id="topography.digitalElevationModels" /></li>
                         <li><FormattedMessage id="topography.leveling" /></li>
                         <li><FormattedMessage id="topography.excavations" /></li>
-                        <li><FormattedMessage id="topographycontourMapping" /></li>
+                        <li><FormattedMessage id="topography.contourMapping" /></li>
 
                     </ul>
                 </div>
