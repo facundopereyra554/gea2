@@ -17,7 +17,7 @@ import Img22 from "../../assets/gallery/img22.jpg";
 import Img23 from "../../assets/gallery/img23.jpg";
 import Img24 from "../../assets/gallery/img24.jpg";
 import Img25 from "../../assets/gallery/img25.jpg";
-import ImgGal1 from "../../assets/gallery/imgGal1.jpg";
+// import ImgGal1 from "../../assets/gallery/imgGal1.jpg";
 import ImgGal2 from "../../assets/gallery/imgGal2.jpg";
 import ImgGal3 from "../../assets/gallery/imgGal3.jpg";
 import ImgGal4 from "../../assets/gallery/imgGal4.jpg";
@@ -287,7 +287,7 @@ function Home({ setLocale, locale }) {
             <h3 className='main-sections-title '><FormattedMessage id="topography.description" /></h3>
             <div className="textFlex">
                 <div className='zoomImgContainer'>
-                    <img src="../src/assets/drone.jpg" className="topographyImageDrone" alt="..."/>
+                    <img src="../assets/drone.jpg" className="topographyImageDrone" alt="..."/>
                 </div>
                 <div>
                     <br />
@@ -317,7 +317,7 @@ function Home({ setLocale, locale }) {
 
             <div>
                 <div><img src={Img19} alt="" /></div>
-                <div><img src={ImgGal1} alt="" /></div>
+                {/* <div><img src={ImgGal1} alt="" /></div> */}
                 <div><img src={Img24} alt="" /></div>
                 <div><img src={ImgGal4} alt="" /></div>
                 

@@ -30,14 +30,12 @@ function Hidrohome() {
                         <li><span><FormattedMessage id="monitoringProgram" /></span></li>
                     </ul>
                 </div>
-                <div className='hidro-imgs'>
-                    <img src="../assets/img2.jpg" alt="" />
-                    <div className='hidro-imgs-column'>
+                <div className='hidro-imgs-column2' style={{textAlign: 'center', marginTop: '50px'}}>
+                        <img src="../assets/img2.jpg" alt="" />
+                        <img src="../assets/img6.jpg" alt="" />     
                         <img src="../assets/img5.jpg" alt="" />
-                        <img src="../assets/img6.jpg" alt="" />
-                    </div>
-                    
                 </div>
+
             </div>
 
 
