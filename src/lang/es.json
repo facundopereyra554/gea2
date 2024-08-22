@@ -5,16 +5,18 @@
     "nav.contact": "CONTACTO",
     "banner.title": "Consultores",
     "banner.subTitle":"en recursos hídricos SRL",
-    "aboutUs.ourHistory": "Gea personifica el origen de la vida, siendo la divinidad que encarna a la Tierra, la feminidad y la plenitud de la fortaleza. Gea representa la tierra, pero también el elemento vital del agua. Ella simboliza ese flujo constante, una fuente inagotable de creación. Ella simboliza ese flujo constante, una fuente inagotable de creación. GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas.",
+    "aboutUs.ourHistory": "Gea personifica el origen de la vida, siendo la divinidad que encarna a la Tierra, la feminidad y la plenitud de la fortaleza. Gea representa la tierra, pero también el elemento vital del agua. Ella simboliza ese flujo constante, una fuente inagotable de creación. GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas.",
     "teamIntro": "Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra.",
 
+    "about.team":" Nos constituimos como un equipo de profesionales geólogos e hidrogeólogos que por más de una década, hemos dedicado nuestros esfuerzos a la exploración, identificación, medición y evaluación de los Recursos Hídricos destinados a diversas industrias.",
+    "about.team2":"Tenemos la firme convicción de que el agua es uno de los recursos vitales para el progreso de la humanidad. Por ello, llevamos a cabo nuestras actividades de manera sostenible, ejerciendo un cuidado especial tanto del recurso como del entorno. Garantizamos la salud y seguridad de nuestros trabajadores. Nos adaptamos a las necesidades de nuestros clientes.",
     "team.obj.title": "OBJETIVOS",
     "team.mision.title": "MISIÓN",
     "team.vision.title": "VISIÓN",
 
     "team.objective": "GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas. Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra. Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.",
     "team.valueAddition": "Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria. Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora. Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.",
-    "team.leadership": "Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.",
+    "team.leadership": " Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.",
     
     "hydrogeology": "HIDROGEOLOGÍA",
     "hydrology.miningAndAgriculture": "PARA LA INDUSTRIA MINERA METALIFERA- NO METALIFERA (Litio) AGRICOLA - URBANIZACIONES",
@@ -42,10 +44,10 @@
     "sevBenefits.electricalProperties": "Permite Conocer las propiedades eléctricas de los materiales que constituyen del subsuelo.",
     "sevBenefits.unsaturatedThickness": "Permite definir espesores no saturados.",
     "sevBenefits.saturatedThickness": "Definir espesores saturados.",
-    "sevBenefits.aquiferInterfaces": "Conocer interfases de diferentes acuíferos dulce, salobres, salados.",
+    "sevBenefits.aquiferInterfaces": "Conocer interfaces de diferentes acuíferos dulce, salobres, salados.",
     "sevBenefits.wellDepthProjection": "Permite proyectar la profundidad de un pozo.",
     "sevBenefits.tentativeDesign": "Permite diseñar tentativamente un pozo.",
-    "sevBenefits.geoElectricalSections": "Con varias secciones geo eléctricas correlacionados en profundidad se puede crear corte geo eléctrica.",
+    "sevBenefits.geoElectricalSections": "Con varias secciones geoeléctricas correlacionadas en profundidad, se puede crear un corte geoeléctrico.",
       
     "wellGeology": "GEOFÍSICA DE POZO",
 
@@ -54,7 +56,7 @@
     "wellLogging.curveAnalysis": "Con las curvas obtenidas del Perfilaje Eléctrico y su comparación se podrá definir:",
    
 
-    "curveAnalysisDetails.lithology": "Litología",
+    "curveAnalysisDetails.lithology": "Litología.",
     "curveAnalysisDetails.aquifers": "Definir distintos acuíferos.",
     "curveAnalysisDetails.staticWaterLevel": "Definir el nivel estático de agua.",
     "curveAnalysisDetails.aquiferThickness": "Conocer el espesor del acuífero.",
@@ -71,7 +73,7 @@
     "rotaryDrillingTasks.operationalDecisions": "Toma de decisiones operativas.",
     "rotaryDrillingTasks.cuttingLogging": "Logueo geológico de cutting.",
     "rotaryDrillingTasks.rockSamplesCollection": "Recolección de muestras de roca/sedimentos.",
-    "rotaryDrillingTasks.returnTimeCalculation": "Calculo del tiempo de retorno.",
+    "rotaryDrillingTasks.returnTimeCalculation": "Cálculo del tiempo de retorno.",
     "rotaryDrillingTasks.mudControl": "Control del lodo de perforación.",
     "rotaryDrillingTasks.wellCompletion": "Terminación de pozo.",
     "rotaryDrillingTasks.pumpingAnalysis": "Análisis de Bombeo.",
@@ -94,8 +96,8 @@
     "pumpInstallation.geochemicalEvaluations": "Evaluaciones geoquímicas",
   
 
-    "wellHeadAndManifold.description": "ARMADO DE BROCAL Y MANIFOL",
-    "wellHeadAndManifold.governmentStandards": "Según normativa gubernamentales vigentes.",
+    "wellHeadAndManifold.description": "ARMADO DE BROCAL Y MANIFOLD",
+    "wellHeadAndManifold.governmentStandards": "Según las normativas gubernamentales vigentes.",
     "wellHeadAndManifold.systemChanges": "Cambios de sistemas.",
     "wellHeadAndManifold.measurementImprovements": "Mejoras de sistemas de medición.",
  
@@ -106,7 +108,7 @@
     "mining.gisProcessing": "Prospección / Exploración Procesamiento GIS e imágenes satelitales.",
     "mining.geologicalMapping": "Mapa geológico.",
     "mining.structuralMapping": "Mapeo estructural. Mapeo de alteraciones.",
-    "mining.thematicMapping": "Mapeo temáticos geoquímicos.",
+    "mining.thematicMapping": "Mapeos temáticos geoquímicos.",
     "mining.samplingProtocols": "Programación, elaboracion y ejecucion de protocolos de muestreos aplicado a diferentes tipologías de yacimientos",
     "mining.qaQc": "QA/QC Control geológico de pozo.",
     "mining.geologicalLogging": "Logueo geológico y logueo geotécnico registro fotográfico.",
@@ -131,7 +133,7 @@
 
 
     "topography.description": "TOPOGRAFÍA",
-    "topography.civilWorks": "Diseño, calculo y ejecución de obras civiles.",
+    "topography.civilWorks": "Diseño, cálculo y ejecución de obras civiles.",
     "topography.roadDesign": "Diseño y ejecución de caminos.",
     "topography.hydrologyAnalysis": "Análisis de hidrología. Diseño y cálculo de obras hidráulicas.",
     "topography.generalSurveying": "Mensuras en general.",

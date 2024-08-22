@@ -109,7 +109,7 @@ const Footer = () => {
                             <p>Email: info@gearecursoshidricos.com</p>
                             <div className='qrs'>
                                 <img src="../assets/qrNumber1.png" alt="" />
-                                <img src="../assets/qrNumber1.png" alt="" />
+                                <img src="../assets/qrNumber2.png" alt="" />
                             </div>
                         </div>
                     </div>

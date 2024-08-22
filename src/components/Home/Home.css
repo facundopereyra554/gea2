@@ -66,6 +66,24 @@
     padding: 20px 50px;
 }
 
+.aboutGeaTextContainer{
+    background-color: var(--secondary-color);
+    margin-bottom: 50px;
+    transition: .3s;
+}
+
+.aboutGeaTextContainer:hover{
+    background-color: var(--primary-color);
+    transition: .3s;
+    cursor: pointer
+}
+
+.aboutGeaText{
+    color: white;
+    padding: 50px;
+    font-size: 17px;
+}
+
 
 .listHomeCards{
     font-family: AvenirLTStd-Roman;

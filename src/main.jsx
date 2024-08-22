@@ -13,7 +13,6 @@ const RootComponent = () => {
       import(`./lang/${locale}.json`)
           .then((messages) => {
               setMessages(messages.default);
-              console.log("el diablo");
           })
           .catch((error) => {
               console.error(`Error loading the language file for ${locale}:`, error);

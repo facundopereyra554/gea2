@@ -26,9 +26,9 @@ import ImgGal8 from "../../assets/gallery/imgGal8.jpg";
 
 
 function Home({ setLocale, locale }) {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    // useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, []);
 
     const [textObj, setTextObj] = useState("");
     const [teamValueAddition, setTeamValueAddition] = useState("");
@@ -51,7 +51,7 @@ function Home({ setLocale, locale }) {
         if (locale === 'es') {
             setTextObj("GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas. Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra. Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.") ;
             setTeamValueAddition("Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria. Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora. Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.");
-            setTeamLeadership("cupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.");
+            setTeamLeadership("Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.");
             setLong(200);
         } else {
             setTextObj("GEA focuses on providing professional geological advice and technical solutions. Our team is composed of multidisciplinary personnel, including hydrogeologists, geologists, and experts from various branches of earth sciences. Our group offers specific tools and accurate quality data management to help understand hydrological resources.");
@@ -61,7 +61,6 @@ function Home({ setLocale, locale }) {
         }
     }, [locale]);
 
-    console.log(textObj);
 
     return (
         <>
@@ -75,6 +74,14 @@ function Home({ setLocale, locale }) {
             <br />
             <br />
             <br />
+            <div className='aboutGeaTextContainer'>
+                <div className='aboutGeaText'>
+                    <FormattedMessage id="about.team"/>
+                    <br />
+                    <br />
+                    <FormattedMessage id="about.team2"/>
+                </div>
+            </div>
             <div className='geaAbout'>
             
                 <div>
@@ -103,7 +110,7 @@ function Home({ setLocale, locale }) {
                 <div>
                     <p className='textHome'>
                         <FormattedMessage id="wellLogging.description" />
-
+                        &nbsp;
                         <FormattedMessage id="wellLogging.parameters" />
                         <br />
                         <br />
@@ -154,7 +161,9 @@ function Home({ setLocale, locale }) {
                 <div>
                     <p className='textHome'>
                         <FormattedMessage id="technicalDirection.mudLogging" />
+                        &nbsp;
                         <FormattedMessage id="technicalDirection.dataManagement" />
+                        &nbsp;
                         <FormattedMessage id="technicalDirection.fieldGeologistPresence" />
                         <br />
                     </p>

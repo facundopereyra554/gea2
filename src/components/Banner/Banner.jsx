@@ -7,8 +7,8 @@ function Banner() {
         <>
         <div className="section">
             <div className="fixed textBannerP">
-                <img src="../assets/logo.png" alt="Logo" className='Logo' />
-                <h1 className="large">GEA</h1>
+                <img src="../src/assets/newlogo.png" alt="Logo" className='Logo' />
+                <h1 className="large"> <strong>GEA</strong></h1>
                 <p className='subTextBanner'> <span><FormattedMessage id="banner.title" /></span> 
                     <br />
                     <FormattedMessage id="banner.subTitle" />
