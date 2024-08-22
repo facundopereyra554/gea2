@@ -53,3 +53,12 @@
     align-items: center;
 }
 
+.redes > a{
+    width: 32px;
+    margin: 7px;
+}
+
+.redes{
+    margin-bottom: 10px;
+}
+

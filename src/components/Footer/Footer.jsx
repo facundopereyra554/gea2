@@ -103,14 +103,19 @@ const Footer = () => {
                     <div className="col-md-6 extraInfo">
                         <h2 className='titleFooter'><FormattedMessage id="contactForm.info" /></h2>
                         <br />
-                        <br />
                         <div className='InfopER'>
                             <p><FormattedMessage id="info.phone" />: +54 9 387 5321985  /  +54 9 387 5090264</p>
                             <p>Email: info@gearecursoshidricos.com</p>
-                            <div className='qrs'>
-                                <img src="../assets/qrNumber1.png" alt="" />
-                                <img src="../assets/qrNumber2.png" alt="" />
+                            <div className='redes'>
+                                {/* <a href="https://www.facebook.com/share/DNFPGsvZbfcRX3zT/?mibextid=qi2Omg" rel='noreferrer' target='_blank'><img src="../src/assets/redesicons/facebook.png" alt="FacebookLogo" /></a> */}
+                                <a href="https://www.instagram.com/gea.recursoshidricos.srl?igsh=MTlnZGlweXdqYjFvOQ==" rel='noreferrer' target='_blank'><img src="../src/assets/redesicons/social.png" alt="" /></a>
+                                <a href="https://www.linkedin.com/company/gearecursoshidricossrl/" rel='noreferrer' target='_blank'><img src="../src/assets/redesicons/linkedin.png" alt="" /></a>
                             </div>
+                            <div className='qrs'>
+                                <img src="../src/assets/qrNumber1.png" alt="" />
+                                <img src="../src/assets/qrNumber2.png" alt="" />
+                            </div>
+
                         </div>
                     </div>
                 </div>
