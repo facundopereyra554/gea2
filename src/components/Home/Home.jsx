@@ -8,21 +8,21 @@ import {FormattedMessage} from 'react-intl';
 
 import { useState } from 'react';
 
-import Img5 from "../../assets/gallery/img5.jpg";
-import Img17 from "../../assets/gallery/img17.jpg";
-import Img19 from "../../assets/gallery/img19.jpg";
-import Img20 from "../../assets/gallery/img20.jpg";
-import Img21 from "../../assets/gallery/img21.jpg";
-import Img22 from "../../assets/gallery/img22.jpg";
-import Img23 from "../../assets/gallery/img23.jpg";
-import Img24 from "../../assets/gallery/img24.jpg";
-import Img25 from "../../assets/gallery/img25.jpg";
-// import ImgGal1 from "../../assets/gallery/imgGal1.jpg";
-import ImgGal2 from "../../assets/gallery/imgGal2.jpg";
-import ImgGal3 from "../../assets/gallery/imgGal3.jpg";
-import ImgGal4 from "../../assets/gallery/imgGal4.jpg";
-import ImgGal5 from "../../assets/gallery/imgGal5.jpg";
-import ImgGal8 from "../../assets/gallery/imgGal8.jpg";
+// import Img5 from "../../assets/gallery/img5.jpg";
+// import Img17 from "../../assets/gallery/img17.jpg";
+// import Img19 from "../../assets/gallery/img19.jpg";
+// import Img20 from "../../assets/gallery/img20.jpg";
+// import Img21 from "../../assets/gallery/img21.jpg";
+// import Img22 from "../../assets/gallery/img22.jpg";
+// import Img23 from "../../assets/gallery/img23.jpg";
+// import Img24 from "../../assets/gallery/img24.jpg";
+// import Img25 from "../../assets/gallery/img25.jpg";
+// // import ImgGal1 from "../../assets/gallery/imgGal1.jpg";
+// import ImgGal2 from "../../assets/gallery/imgGal2.jpg";
+// import ImgGal3 from "../../assets/gallery/imgGal3.jpg";
+// import ImgGal4 from "../../assets/gallery/imgGal4.jpg";
+// import ImgGal5 from "../../assets/gallery/imgGal5.jpg";
+// import ImgGal8 from "../../assets/gallery/imgGal8.jpg";
 
 
 function Home({ setLocale, locale }) {
@@ -316,7 +316,7 @@ function Home({ setLocale, locale }) {
             </div>
         </div>
 
-        <div className='galeryHome container'>
+        {/* <div className='galeryHome container'>
             <div>
                 <div><img src={Img5} alt="" /></div>
                 <div><img src={Img17} alt="" /></div>
@@ -326,7 +326,6 @@ function Home({ setLocale, locale }) {
 
             <div>
                 <div><img src={Img19} alt="" /></div>
-                {/* <div><img src={ImgGal1} alt="" /></div> */}
                 <div><img src={Img24} alt="" /></div>
                 <div><img src={ImgGal4} alt="" /></div>
                 
@@ -344,6 +343,37 @@ function Home({ setLocale, locale }) {
                 <div><img src={ImgGal3} alt="" /></div>
                 <div><img src={ImgGal8} alt="" /></div>
                 
+            </div>
+        </div> */}
+
+
+        <div className='Carrucel'>
+            <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active" data-bs-interval="10000">
+                        <img src="../src/assets/carrusel/img1.jpg" className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item" data-bs-interval="2000">
+                        <img src="../src/assets/carrusel/img2.jpg" className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="../src/assets/carrusel/img3.jpg" className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="../src/assets/carrusel/img4.jpg" className="d-block w-100" alt="..."/>
+                    </div>
+                    <div className="carousel-item">
+                        <img src="../src/assets/carrusel/img5.jpg" className="d-block w-100" alt="..."/>
+                    </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
 

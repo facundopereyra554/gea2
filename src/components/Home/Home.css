@@ -160,6 +160,10 @@
     border-radius: 20px;
 }
 
+.Carrucel{
+    margin-top: 50px;
+}
+
 @media (max-width:1399px) {
     .card{
         margin: 0 20px;
