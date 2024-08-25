@@ -173,7 +173,7 @@ function Home({ setLocale, locale }) {
                         <br />
                     </p>
                     
-                    <ul className='list-texts listHome'>
+                    <ul id='sevaso' className='list-texts listHome'>
                         <li> <FormattedMessage id="rotaryDrillingTasks.siteManagement" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.operationalDecisions" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.cuttingLogging" /></li>
@@ -196,7 +196,7 @@ function Home({ setLocale, locale }) {
             </div>
         </div>
 
-        <div className='cards-containers container'>
+        <div  className='cards-containers container'>
             <div className="card" style={{width:'400px'}}>
             <div className='zoomImgContainer'>
                 <img src="../assets/filpz1.jpg" className="card-img-top" alt="..."/>

@@ -39,7 +39,7 @@ function Hidrohome() {
             </div>
 
 
-            <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="sevMethod" /></h3>
+            <h3 id='sev' className='main-sections-title main-sections-title-long'><FormattedMessage id="sevMethod" /></h3>
             <p className='main-sections-description'>
                 <FormattedMessage id="sevAbbreviation" /> 
             </p>

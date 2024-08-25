@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom"
 import { useEffect } from 'react'
 import LanguageButton from "./LanguageButton";
 import {FormattedMessage} from 'react-intl';
@@ -34,7 +33,7 @@ function Nav({setLocale, locale}) {
                         <div className="nav-links">
                             <ul>
                             <li className="nav-link" style={{ "--i": ".6s" }}>
-                                <Link to="/"> <FormattedMessage id="nav.us" /></Link>
+                                <a href="#aboutGea"> <FormattedMessage id="nav.us" /></a>
                             </li>
 
                                 <li className="nav-link" style={{ "--i": ".85s" }}>
@@ -42,47 +41,47 @@ function Nav({setLocale, locale}) {
                                     <div className="dropdown">
                                         <ul>
                                             <li className="dropdown-link">
-                                                <a href="#"><FormattedMessage id="hydrogeology" /><i className="fas fa-caret-down"></i></a>
+                                                <a href="#hidrogeo"><FormattedMessage id="hydrogeology" /><i className="fas fa-caret-down"></i></a>
                                                 <div className="dropdown second">
                                                     <ul>
                                                         <li className="dropdown-link">
-                                                            <a href="#">SEV</a>
+                                                            <a href="#sev">SEV</a>
                                                         </li>
                                                         <li className="dropdown-link">
-                                                            <a href="#"><FormattedMessage id="wellGeology" /></a>
+                                                            <a href="#geofisica"><FormattedMessage id="wellGeology" /></a>
                                                         </li>
                                                         <li className="dropdown-link">
-                                                            <a href="#"><FormattedMessage id="technicalDirection.description" /></a>
+                                                            <a href="#dirtec"><FormattedMessage id="technicalDirection.description" /></a>
                                                         </li>
                                                         <div className="arrow"></div>
                                                     </ul>
                                                 </div>
                                             </li>
                                             <li className="dropdown-link">
-                                                <a href="#">SERVICIOS ASOCIADOS<i className="fas fa-caret-down"></i></a>
+                                                <a href="#sevaso"><FormattedMessage id="nav.sevaso" /><i className="fas fa-caret-down"></i></a>
                                                 <div className="dropdown second">
                                                     <ul>
                                                         <li className="dropdown-link">
-                                                            <a href="#">Filmación de pozo</a>
+                                                            <a href="#sevaso"><FormattedMessage id="wellFilming.description" /></a>
                                                         </li>
                                                         <li className="dropdown-link">
-                                                            <a href="#"> Instalación y desinstalación de bombas sumergibles</a>
+                                                            <a href="#sevaso"><FormattedMessage id="pumpInstallation.description" /></a>
                                                         </li>
                                                         <li className="dropdown-link">
-                                                            <a href="#">Armado de brocal y manifol</a>
+                                                            <a href="#sevaso"><FormattedMessage id="wellHeadAndManifold.description" /></a>
                                                         </li>
                                                         <div className="arrow"></div>
                                                     </ul>
                                                 </div>
                                             </li>
                                             <li className="dropdown-link">
-                                                <a href="#"><FormattedMessage id="mining.description" /></a>
+                                                <a href="#mineria"><FormattedMessage id="mining.description" /></a>
                                             </li>
                                             <li className="dropdown-link">
-                                                <a href="#"><FormattedMessage id="environment.description" /></a>
+                                                <a href="#medAmb"><FormattedMessage id="environment.description" /></a>
                                             </li>
                                             <li className="dropdown-link">
-                                                <a href="#"><FormattedMessage id="topography.description" /></a>
+                                                <a href="#topo"><FormattedMessage id="topography.description" /></a>
                                             </li>
                                             <div className="arrow"></div>
                                         </ul>
