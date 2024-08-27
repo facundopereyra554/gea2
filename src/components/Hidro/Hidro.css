@@ -105,6 +105,11 @@
     margin-top: 40px;
 }
 
+.restrict{
+    margin-top: 50px;
+    max-width: 720px;
+}
+
 
 @media (max-width:1200px) {
     .hidro-info{
@@ -141,6 +146,9 @@
 @media (max-width:700px) {
     .hidro-title{
         font-size: 30px;
+    }
+    .restrict{
+        max-width: auto;
     }
 }
 

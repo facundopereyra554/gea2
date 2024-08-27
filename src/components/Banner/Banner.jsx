@@ -7,7 +7,7 @@ function Banner() {
         <>
         <div className="section">
             <div className="fixed textBannerP">
-                <img src="../src/assets/newlogo.png" alt="Logo" className='Logo' />
+                <img src="../assets/newlogo.png" alt="Logo" className='Logo' />
                 <h1 className="large"> <strong>GEA</strong></h1>
                 <p className='subTextBanner'> <span><FormattedMessage id="banner.title" /></span> 
                     <br />
@@ -19,7 +19,7 @@ function Banner() {
         <div className="section section2">
             <div className="fixed">
             <h1><FormattedMessage id="aboutUs.ourHistory" /></h1>
-                <img src="../assets/logo.png" alt="Logo" className='logo' />
+            <img src="../assets/newlogo.png" alt="Logo" className='Logo2' />
             </div>
         </div>
 

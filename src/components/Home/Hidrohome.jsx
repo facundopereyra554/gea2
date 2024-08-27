@@ -32,8 +32,9 @@ function Hidrohome() {
                 </div>
                 <div className='hidro-imgs-column2' style={{textAlign: 'center', marginTop: '50px'}}>
                         <img src="../assets/img2.jpg" alt="" />
-                        <img src="../assets/img6.jpg" alt="" />     
+                        <img src="../assets/img6.jpg" alt="" />
                         <img src="../assets/img5.jpg" alt="" />
+                        <img src="../assets/imgNew.jpg" alt="" /> 
                 </div>
 
             </div>
@@ -65,9 +66,18 @@ function Hidrohome() {
                         <li><span><FormattedMessage id="sevBenefits.geoElectricalSections" /></span></li>
                     </ul>
                 </div>
-                <div className='hidro-imgs-column2'>
-                    <img src="../assets/graph.jpg" alt="" />
-                    <img src="../assets/img4.jpg" alt="" />
+                <div className='hidro-imgs-column2 restrict'>
+                <div className='imgGEOp'>
+                    <div style={{marginTop: '70px'}}>
+                        <div><img  src="../assets/img4.jpg" alt="" /></div>
+                        <div><img  src="../assets/graph.jpg" alt="" /></div>
+                    </div>
+                    <div>
+                        <div><img src="../assets/imgsev1.jpg" alt="" /></div>
+                        <div><img src="../assets/imgsev2.jpg" alt="" /></div>
+                    </div>
+
+                </div>
                 </div>
             </div>
 

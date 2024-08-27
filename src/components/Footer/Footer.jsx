@@ -108,12 +108,12 @@ const Footer = () => {
                             <p>Email: info@gearecursoshidricos.com</p>
                             <div className='redes'>
                                 {/* <a href="https://www.facebook.com/share/DNFPGsvZbfcRX3zT/?mibextid=qi2Omg" rel='noreferrer' target='_blank'><img src="../src/assets/redesicons/facebook.png" alt="FacebookLogo" /></a> */}
-                                <a href="https://www.instagram.com/gea.recursoshidricos.srl?igsh=MTlnZGlweXdqYjFvOQ==" rel='noreferrer' target='_blank'><img src="../src/assets/redesicons/social.png" alt="" /></a>
-                                <a href="https://www.linkedin.com/company/gearecursoshidricossrl/" rel='noreferrer' target='_blank'><img src="../src/assets/redesicons/linkedin.png" alt="" /></a>
+                                <a href="https://www.instagram.com/gea.recursoshidricos.srl?igsh=MTlnZGlweXdqYjFvOQ==" rel='noreferrer' target='_blank'><img src="../assets/redesicons/social.png" alt="" /></a>
+                                <a href="https://www.linkedin.com/company/gearecursoshidricossrl/" rel='noreferrer' target='_blank'><img src="../assets/redesicons/linkedin.png" alt="" /></a>
                             </div>
                             <div className='qrs'>
-                                <img src="../src/assets/qrNumber1.png" alt="" />
-                                <img src="../src/assets/qrNumber2.png" alt="" />
+                                <img src="../assets/qrNumber1.png" alt="" />
+                                <img src="../assets/qrNumber2.png" alt="" />
                             </div>
 
                         </div>
@@ -124,17 +124,17 @@ const Footer = () => {
                 <div className=''>
                     <div className="slider-container">
                         <Slider {...settings}>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/ganfeng.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/litica.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/msr.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/aeg.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/aminco.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/andes.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/conosur.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/drillar.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/foraco.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/santafe.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/virgen.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/ganfeng.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/litica.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/msr.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aeg.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aminco.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/andes.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/conosur.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/drillar.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/foraco.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/santafe.png" alt="" /></div>
+                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/virgen.png" alt="" /></div>
                         </Slider>
                     </div>
                 </div>

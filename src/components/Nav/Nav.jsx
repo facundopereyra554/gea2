@@ -88,7 +88,7 @@ function Nav({setLocale, locale}) {
                                     </div>
                                 </li>
                                 <li className="nav-link" style={{ "--i": "1.35s" }}>
-                                    <a href="#"><FormattedMessage id="nav.contact"/></a>
+                                    <a href="#Contacto"><FormattedMessage id="nav.contact"/></a>
                                 </li>
 
                                 <li className="nav-link" style={{ "--i": "1.35s" }}>
