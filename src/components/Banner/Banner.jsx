@@ -1,19 +1,13 @@
 import './Banner.css';
 import {FormattedMessage} from 'react-intl';
-function Banner() {
+function Banner({imgSrcLeng}) {
 
 
     return(
         <>
         <div className="section">
             <div className="fixed textBannerP">
-                <img src="../assets/newlogo.png" alt="Logo" className='Logo' />
-                <h1 className="large"> <strong>GEA</strong></h1>
-                <p className='subTextBanner'> <span><FormattedMessage id="banner.title" /></span> 
-                    <br />
-                    <FormattedMessage id="banner.subTitle" />
-                </p>
-               
+                <img src={imgSrcLeng} alt="Logo" className='Logo' />      
             </div>
         </div>
         <div className="section section2">

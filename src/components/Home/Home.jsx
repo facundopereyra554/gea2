@@ -34,6 +34,7 @@ function Home({ setLocale, locale }) {
     const [teamValueAddition, setTeamValueAddition] = useState("");
     const [teamLeadership, setTeamLeadership] = useState("");
     const [long, setLong] = useState();
+    const [srcLengLogo, setSrcLengLogo] = useState("../assets/newLogoEs.png");
 
     // useEffect(() => {
     //     import(`./lang/${locale}.json`)
@@ -58,6 +59,7 @@ function Home({ setLocale, locale }) {
             setTeamValueAddition("Add value to the resources studied through our industry experience. To guarantee the reliability of our services by complying with the current regulations and policies of the employer company. To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.");
             setTeamLeadership("To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.");
             setLong(170);
+            setSrcLengLogo("../assets/newLogoEn.png");
         }
     }, [locale]);
 
@@ -65,7 +67,7 @@ function Home({ setLocale, locale }) {
     return (
         <>
         <div style={{marginTop: '100px'}}>
-            <Banner/>
+            <Banner imgSrcLeng={srcLengLogo}/>
         </div>
 
         

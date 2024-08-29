@@ -120,26 +120,29 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='container slider-logos'>
-                <div className=''>
-                    <div className="slider-container">
-                        <Slider {...settings}>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/ganfeng.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/litica.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/msr.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aeg.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aminco.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/andes.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/conosur.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/drillar.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/foraco.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/santafe.png" alt="" /></div>
-                            <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/virgen.png" alt="" /></div>
-                        </Slider>
+            <div className='slider-logos-container'>
+                <div className='container slider-logos'>
+                    <div className=''>
+                        <div className="slider-container">
+                            <Slider {...settings}>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/ganfeng.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/litica.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/msr.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/aeg.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/aminco.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/andes.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/conosur.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/drillar.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/foraco.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/santafe.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../src/assets/lgosComp/virgen.png" alt="" /></div>
+                            </Slider>
+                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
+
         </footer>
     );
 };
