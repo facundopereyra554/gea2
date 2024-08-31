@@ -30,11 +30,28 @@ function Hidrohome() {
                         <li><span><FormattedMessage id="monitoringProgram" /></span></li>
                     </ul>
                 </div>
-                <div className='hidro-imgs-column2' style={{textAlign: 'center', marginTop: '50px'}}>
-                        <img src="../assets/img2.jpg" alt="" />
-                        <img src="../assets/img6.jpg" alt="" />
-                        <img src="../assets/img5.jpg" alt="" />
-                        <img src="../assets/imgNew.jpg" alt="" /> 
+                <div className="image-grid-wrapper">
+                    <div className="image-grid">
+                        <div className="top-row">
+                            <div className="image-container">
+                                <img src="../src/assets/img2.jpg" alt="Image 1"/>
+                            </div>
+                            <div className="image-container">
+                                <img src="../src/assets/img6.jpg" alt="Image 2"/>
+                            </div>
+                        </div>
+                        <div className="bottom-row">
+                            <div className="image-container">
+                                <img src="../src/assets/imgNew.jpg" alt="Image 3"/>
+                            </div>
+                            <div className="image-container">
+                                <img src="../src/assets/imgHidro1.jpg" alt="Image 4"/>
+                            </div>
+                            <div className="image-container">
+                                <img src="../src/assets/img5.jpg" alt="Image 5"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -66,19 +83,31 @@ function Hidrohome() {
                         <li><span><FormattedMessage id="sevBenefits.geoElectricalSections" /></span></li>
                     </ul>
                 </div>
-                <div className='hidro-imgs-column2 restrict'>
+
+                <div className='hidro-imgs'>
+                    <img src="../src/assets/graph.jpg" alt="" />
+                    <div className='hidro-imgs-column'>
+                        <img src="../src/assets/img4.jpg" alt="" />
+                        <img src="../src/assets/imgsev1.jpg" alt="" />
+                    </div>
+                </div>
+
+
+
+
+                {/* <div className='hidro-imgs-column2 restrict'>
                 <div className='imgGEOp'>
                     <div style={{marginTop: '70px'}}>
-                        <div><img  src="../assets/img4.jpg" alt="" /></div>
-                        <div><img  src="../assets/graph.jpg" alt="" /></div>
+                        <div><img  src="../src/assets/img4.jpg" alt="" /></div>
+                        <div><img  src="../src/assets/graph.jpg" alt="" /></div>
                     </div>
                     <div>
-                        <div><img src="../assets/imgsev1.jpg" alt="" /></div>
-                        <div><img src="../assets/imgsev2.jpg" alt="" /></div>
+                        <div><img src="../src/assets/imgsev1.jpg" alt="" /></div>
+                        <div><img src="../src/assets/imgsev2.jpg" alt="" /></div>
                     </div>
 
                 </div>
-                </div>
+                </div> */}
             </div>
 
         </div>  

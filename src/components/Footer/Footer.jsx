@@ -74,6 +74,9 @@ const Footer = () => {
     };
 
     return (
+        <>
+        
+       
         <footer id='Contacto' className="footerContainer text-light py-5">
             <div className="container">
                 <div className="row">
@@ -120,7 +123,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='slider-logos-container'>
+
+
+        </footer> 
+        <div className='slider-logos-container'>
                 <div className='container slider-logos'>
                     <div className=''>
                         <div className="slider-container">
@@ -142,8 +148,7 @@ const Footer = () => {
 
                 </div>
             </div>
-
-        </footer>
+        </>
     );
 };
 

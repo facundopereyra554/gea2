@@ -7,6 +7,10 @@
     margin-top: 50px;
 }
 
+.textHomeContainer{
+    padding-top: 50px;
+}
+
 .textHome{
     padding-left: 40px;
     font-size: 17px;
@@ -24,30 +28,51 @@
 }
 
 .imgGEOp{
+    padding: 0 100px;
     margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    border-radius: 20px;
+    overflow-y: hidden;
 }
 
-.imgGEOp>div>div{
-    border-radius: 20px;
+.blueRec{
+    background-color: var(--primary-color);
+    height: 100px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.blueRec2{
+    background-color: var(--primary-color);
+    height: 100px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border-radius: 20px 20px 0 0; 
+}
+
+.imgGEOp>div{
     overflow: hidden;
     transition: .3s;
     margin-bottom: 20px;
 }
 
-.imgGEOp>div>div>img{
+.imgGEOp>div>img{
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
     width: 100%;
+    height: auto;
     transition: .5s;
     overflow: hidden;
 }
 
-.imgGEOp>div>div>img:hover{
+/* .imgGEOp>div>div>img:hover{
     scale: 1.2;
     cursor: pointer;
     transition: .5s;
-}
+} */
 
 .cards-containers{
     margin-top: 70px;
