@@ -108,6 +108,18 @@ function Home({ setLocale, locale }) {
         <div className='container' id='geofisica'>
             <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="wellGeology" /></h3>
             <div className='textFlex'>
+                <div className='imgGEOp'>
+                    <div>
+                        <div className='blueRec'></div>
+                        <img  src="../src/assets/img9.jpg" alt="" />
+                        <div className='blueRec2'></div>
+                    </div>
+                
+                    <div>
+                        <img src="../src/assets/img3.jpg" alt="" />
+                        <img src="../src/assets/imggeof.jpg" alt="" />
+                    </div>
+                </div>
                 <div className='textHomeContainer'>
                     <p className='textHome'>
                         <FormattedMessage id="wellLogging.description" />
@@ -128,20 +140,7 @@ function Home({ setLocale, locale }) {
                         <li><FormattedMessage id="curveAnalysisDetails.wellCompletionDesign" /></li>
                     </ul>
                 </div>
-                <div className='imgGEOp'>
-                        <div>
-                            <div className='blueRec'></div>
-                            <img  src="../src/assets/img9.jpg" alt="" />
-                            <div className='blueRec2'></div>
-                        </div>
-                 
-                        <div>
-                            <img src="../src/assets/img3.jpg" alt="" />
-                            <img src="../src/assets/imggeof.jpg" alt="" />
-                        </div>
 
-
-                </div>
 
             </div>
             <div>
@@ -153,17 +152,7 @@ function Home({ setLocale, locale }) {
             <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="technicalDirection.description" /></h3>
             <div className='textFlex'>
 
-                <div className='imgGEOp'>
-                    <div style={{marginTop: '70px'}}>
-                       <div> <img src="../src/assets/img17.jpg" alt="" /></div>
-                    </div>
-                    <div>
-                        <div><img src="../src/assets/img8.jpg" alt="" /></div>
-                        <div><img src="../src/assets/imgpz1.png" alt="" /></div>
-                        <div><img src="../src/assets/imgDirect.jpg" alt="" /></div>
-                    </div>
 
-                </div>
                 <div>
                     <p className='textHome'>
                         <FormattedMessage id="technicalDirection.mudLogging" />
@@ -196,9 +185,21 @@ function Home({ setLocale, locale }) {
                     </ul>
                 </div>
 
-            </div>
-            <div>
+
+                <div className='imgGEOp'>
+                    
+                    <div className='imgDirWidth'> 
+                        <img src="../src/assets/img17.jpg" alt="" />
+                        <img src="../src/assets/img1.jpg" alt="" />
+                    </div>
                 
+                    <div className='imgDirWidthMargin'>
+                        <img src="../src/assets/img81.png" alt="" />
+                        <img src="../src/assets/imgpz1.png" alt="" />
+                        <img src="../src/assets/imgDirect.jpg" alt="" />
+                    </div>
+
+                </div>
             </div>
         </div>
 

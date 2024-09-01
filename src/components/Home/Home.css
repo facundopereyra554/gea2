@@ -37,6 +37,13 @@
     overflow-y: hidden;
 }
 
+.imgDirWidth{
+    width: 260px;
+}
+.imgDirWidthMargin{
+    margin-top: 50px;
+}
+
 .blueRec{
     background-color: var(--primary-color);
     height: 100px;
