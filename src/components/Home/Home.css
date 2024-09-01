@@ -231,6 +231,7 @@
     .galeryHome{
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 
 @media (max-width:850px) {
@@ -254,6 +255,12 @@
     .listHome{
         margin-left: 0;
 
+    }
+    .blueRec{
+        display: none;
+    }
+    .blueRec2{
+        display: none;
     }
 }
 

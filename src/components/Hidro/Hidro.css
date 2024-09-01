@@ -14,6 +14,8 @@
     display: none;
 }
 
+
+
 .hidro-title{
     margin-top: 20px;
     font-family: AlternateBold;
@@ -53,6 +55,10 @@
     justify-content: space-between;
     gap: 100px;
     padding-left: 50px;
+}
+
+.hidro-info-text{
+    max-width: 100%;
 }
 
 .list-texts{
@@ -164,6 +170,63 @@
     gap: 20px;
 }
 
+.imgHidro{
+    justify-content: center;
+}
+
+.imgHidro > div{
+    max-width: 300px;
+    margin: 0 10px;
+}
+
+.imgHidro > div > img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+@media (max-width:1600px) {
+    .hidro-info-text{
+        max-width: 500px;
+    }
+    
+}
+
+@media (max-width:1400px) {
+    .image-grid{
+        left: 36%;
+    }
+    .image-container{
+        width: 190px;
+        height: 190px;
+    }
+    .image-grid-wrapper{
+        margin-top: 250px;
+        height: 300px;
+    }
+
+    .imgGEOp{
+        padding: 0;
+    }
+}
+
+@media (max-width:1360px) {
+    .image-container{
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media (max-width:1360px) {
+    .image-container{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
 
 @media (max-width:1200px) {
     .hidro-info{
@@ -171,6 +234,10 @@
         text-align: center;
         margin-top: 0;
         padding-left: 0;
+    }
+
+    .hidro-info-text{
+        max-width: 100%;
     }
 
     .sondeo_padd{
@@ -195,6 +262,23 @@
         display: flex;
         flex-direction: column;
     }
+
+    .pcview{
+        display: none;
+    }
+    .celview{
+        display: flex;
+    }
+
+    .imgDirWidth{
+        width: auto;
+    }
+    .hidro-imgs>img{
+        height: auto;
+    }
+    .hidro-imgs-column{
+        justify-content: center;
+    }
 }
 
 @media (max-width:700px) {
@@ -203,6 +287,24 @@
     }
     .restrict{
         max-width: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .hidro-imgs-column{
+        flex-direction: column;
+    }
+
+    .hidro-imgs-column > img{
+        height: auto;
+    }
+    .imgHidro{
+        
+        flex-direction: column;
+    }
+    .imgHidro > div{
+        justify-content: center;
+        max-width: 95%;
     }
 }
 
@@ -229,11 +331,5 @@
         padding: 0;
     }
 
-    .pcview{
-        display: none;
-    }
-    .celview{
-        display: block;
-    }
 }
 

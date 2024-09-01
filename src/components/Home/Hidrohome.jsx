@@ -11,7 +11,7 @@ function Hidrohome() {
             </p>
 
             <div className='hidro-info'>
-                <div>
+                <div className='hidro-info-text'>
                     <ul className='list-texts'>
                         <li><span><FormattedMessage id="prefeasibility" /></span></li>
                         <li><span><FormattedMessage id="gisAnalysis" /></span></li>
@@ -30,7 +30,7 @@ function Hidrohome() {
                         <li><span><FormattedMessage id="monitoringProgram" /></span></li>
                     </ul>
                 </div>
-                <div className="image-grid-wrapper">
+                <div className="image-grid-wrapper pcview">
                     <div className="image-grid">
                         <div className="top-row">
                             <div className="image-container">
@@ -52,6 +52,21 @@ function Hidrohome() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='celview imgHidro'>
+                    <div>
+
+                        <img src="../src/assets/img6.jpg" alt="Image 2"/>
+                        <img src="../src/assets/imgNew.jpg" alt="Image 3"/>
+                        <img src="../src/assets/imgHidro1.jpg" alt="Image 4"/>
+                    </div>
+                    <div>
+                        <img src="../src/assets/img2.jpg" alt="Image 1"/>
+                       
+                        <img src="../src/assets/img5.jpg" alt="Image 5"/>
+                    </div>
+
+
                 </div>
 
             </div>

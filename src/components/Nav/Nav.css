@@ -423,4 +423,11 @@ header{
         opacity: 0;
         transform: translateY(15px);
     }
+
+    .Navcontainer{
+        padding: 0 6rem;
+    }
+    #check{
+        right: 5.5rem;
+    }
 }
