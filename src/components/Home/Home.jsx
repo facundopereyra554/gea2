@@ -26,9 +26,9 @@ import { useState } from 'react';
 
 
 function Home({ setLocale, locale }) {
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const [textObj, setTextObj] = useState("");
     const [teamValueAddition, setTeamValueAddition] = useState("");
