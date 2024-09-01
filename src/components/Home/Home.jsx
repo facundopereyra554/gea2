@@ -34,7 +34,7 @@ function Home({ setLocale, locale }) {
     const [teamValueAddition, setTeamValueAddition] = useState("");
     const [teamLeadership, setTeamLeadership] = useState("");
     const [long, setLong] = useState();
-    const [srcLengLogo, setSrcLengLogo] = useState("../src/assets/newLogoEs.png");
+    const [srcLengLogo, setSrcLengLogo] = useState("../assets/newLogoEs.png");
 
     // useEffect(() => {
     //     import(`./lang/${locale}.json`)
@@ -59,7 +59,7 @@ function Home({ setLocale, locale }) {
             setTeamValueAddition("Add value to the resources studied through our industry experience. To guarantee the reliability of our services by complying with the current regulations and policies of the employer company. To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.");
             setTeamLeadership("To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.");
             setLong(170);
-            setSrcLengLogo("../src/assets/newLogoEn.png");
+            setSrcLengLogo("../assets/newLogoEn.png");
         }
     }, [locale]);
 
@@ -111,13 +111,13 @@ function Home({ setLocale, locale }) {
                 <div className='imgGEOp'>
                     <div>
                         <div className='blueRec'></div>
-                        <img  src="../src/assets/img9.jpg" alt="" />
+                        <img  src="../assets/img9.jpg" alt="" />
                         <div className='blueRec2'></div>
                     </div>
                 
                     <div>
-                        <img src="../src/assets/img3.jpg" alt="" />
-                        <img src="../src/assets/imggeof.jpg" alt="" />
+                        <img src="../assets/img3.jpg" alt="" />
+                        <img src="../assets/imggeof.jpg" alt="" />
                     </div>
                 </div>
                 <div className='textHomeContainer'>
@@ -153,7 +153,7 @@ function Home({ setLocale, locale }) {
             <div className='textFlex'>
 
 
-                <div>
+                <div className='textHomeContainer'>
                     <p className='textHome'>
                         <FormattedMessage id="technicalDirection.mudLogging" />
                         &nbsp;
@@ -169,7 +169,7 @@ function Home({ setLocale, locale }) {
                     </p>
                     
                     <ul id='sevaso' className='list-texts listHome'>
-                        <li> <FormattedMessage id="rotaryDrillingTasks.siteManagement" /></li>
+                        <li><FormattedMessage id="rotaryDrillingTasks.siteManagement" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.operationalDecisions" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.cuttingLogging" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.rockSamplesCollection" /></li>
@@ -189,14 +189,14 @@ function Home({ setLocale, locale }) {
                 <div className='imgGEOp'>
                     
                     <div className='imgDirWidth'> 
-                        <img src="../src/assets/img17.jpg" alt="" />
-                        <img src="../src/assets/img1.jpg" alt="" />
+                        <img src="../assets/img17.jpg" alt="" />
+                        <img src="../assets/img1.jpg" alt="" />
                     </div>
                 
                     <div className='imgDirWidthMargin'>
-                        <img src="../src/assets/img81.png" alt="" />
-                        <img src="../src/assets/imgpz1.png" alt="" />
-                        <img src="../src/assets/imgDirect.jpg" alt="" />
+                        <img src="../assets/img81.png" alt="" />
+                        <img src="../assets/imgpz1.png" alt="" />
+                        <img src="../assets/imgDirect.jpg" alt="" />
                     </div>
 
                 </div>
@@ -206,7 +206,7 @@ function Home({ setLocale, locale }) {
         <div  className='cards-containers container'>
             <div className="card" style={{width:'400px'}}>
             <div className='zoomImgContainer'>
-                <img src="../src/assets/filpz1.jpg" className="card-img-top" alt="..."/>
+                <img src="../assets/filpz1.jpg" className="card-img-top" alt="..."/>
             </div>
                 <div className="card-body">
                     <h3 className='titleCard'><FormattedMessage id="wellFilming.description" /></h3>
@@ -225,7 +225,7 @@ function Home({ setLocale, locale }) {
 
             <div className="card" style={{width:'400px'}}>
                 <div className='zoomImgContainer'>
-                    <img src="../src/assets/img14.jpeg" className="card-img-top" alt="..."/>
+                    <img src="../assets/img14.jpeg" className="card-img-top" alt="..."/>
                 </div>
                 <div className="card-body">
                     <h3 className='titleCard'><FormattedMessage id="pumpInstallation.description" /></h3>
@@ -242,7 +242,7 @@ function Home({ setLocale, locale }) {
 
             <div className="card" style={{width:'400px'}}>
                 <div className='zoomImgContainer'>
-                    <img src="../src/assets/filpz3.jpg" className="card-img-top" alt="..."/>
+                    <img src="../assets/filpz3.jpg" className="card-img-top" alt="..."/>
                 </div>
                 <div className="card-body">
                     <h3 className='titleCard'><FormattedMessage id="wellHeadAndManifold.description" /></h3>
@@ -303,7 +303,7 @@ function Home({ setLocale, locale }) {
             <h3 className='main-sections-title '><FormattedMessage id="topography.description" /></h3>
             <div className="textFlex">
                 <div className='zoomImgContainer'>
-                    <img src="../src/assets/drone.jpg" className="topographyImageDrone" alt="..."/>
+                    <img src="../assets/drone.jpg" className="topographyImageDrone" alt="..."/>
                 </div>
                 <div>
                     <br />
