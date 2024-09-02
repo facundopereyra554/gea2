@@ -34,10 +34,10 @@ function Hidrohome() {
                     <div className="image-grid">
                         <div className="top-row">
                             <div className="image-container">
-                                <img src="../assets/img2.jpg" alt="Image 1"/>
+                                <img src="../assets/img21.jpg" alt="Image 1"/>
                             </div>
                             <div className="image-container">
-                                <img src="../assets/img6.jpg" alt="Image 2"/>
+                                <img src="../assets/img61.jpg" alt="Image 2"/>
                             </div>
                         </div>
                         <div className="bottom-row">

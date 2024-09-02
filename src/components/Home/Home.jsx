@@ -111,13 +111,14 @@ function Home({ setLocale, locale }) {
                 <div className='imgGEOp'>
                     <div>
                         <div className='blueRec'></div>
-                        <img  src="../assets/img9.jpg" alt="" />
+                        <img src="../assets/imggeof.jpg" alt="" />
                         <div className='blueRec2'></div>
                     </div>
                 
                     <div>
                         <img src="../assets/img3.jpg" alt="" />
-                        <img src="../assets/imggeof.jpg" alt="" />
+                        
+                        <img  src="../assets/img9.jpg" alt="" />
                     </div>
                 </div>
                 <div className='textHomeContainer'>
