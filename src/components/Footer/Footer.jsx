@@ -134,6 +134,8 @@ const Footer = () => {
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/ganfeng.png" alt="" /></div>
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/litica.png" alt="" /></div>
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/msr.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/landCore.png" alt="" /></div>
+                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/virgen.png" alt="" /></div>
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aeg.png" alt="" /></div>
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/aminco.png" alt="" /></div>
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/andes.png" alt="" /></div>
@@ -141,7 +143,6 @@ const Footer = () => {
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/drillar.png" alt="" /></div>
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/foraco.png" alt="" /></div>
                                 <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/santafe.png" alt="" /></div>
-                                <div className='div-container-img'><img className='img-fluid lgs-com' src="../assets/lgosComp/virgen.png" alt="" /></div>
                             </Slider>
                         </div>
                     </div>

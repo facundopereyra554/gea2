@@ -26,9 +26,9 @@ import { useState } from 'react';
 
 
 function Home({ setLocale, locale }) {
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const [textObj, setTextObj] = useState("");
     const [teamValueAddition, setTeamValueAddition] = useState("");
@@ -190,7 +190,7 @@ function Home({ setLocale, locale }) {
                 <h3 className='colortext'><FormattedMessage id="environment.description" /></h3>
             </div>
 
-        </div>a
+        </div>
 
 
         <div>
@@ -199,7 +199,7 @@ function Home({ setLocale, locale }) {
         
 
 
-        <div className='container' id='geofisica'>
+        <div className='container pcview' id='geofisica '>
             <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="wellGeology" /></h3>
             <div className='textFlex'>
                 <div className='imgGEOp'>
@@ -240,6 +240,46 @@ function Home({ setLocale, locale }) {
             </div>
             <div>
                 
+            </div>
+        </div>
+
+        <div className='container celview1' id='geofisica'>
+            <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="wellGeology" /></h3>
+            <div className='textFlex'>
+
+                <div className='textHomeContainer'>
+                    <p className='textHome'>
+                        <FormattedMessage id="wellLogging.description" />
+                        &nbsp;
+                        <FormattedMessage id="wellLogging.parameters" />
+                        <br />
+                        <br />
+
+                    </p>
+
+                    <p className='textHome' ><FormattedMessage id="wellLogging.curveAnalysis" /></p>
+                    
+                    <ul className='list-texts listHome'>
+                        <li><FormattedMessage id="curveAnalysisDetails.lithology" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.aquifers" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.staticWaterLevel" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.aquiferThickness" /></li>
+                        <li><FormattedMessage id="curveAnalysisDetails.wellCompletionDesign" /></li>
+                    </ul>
+                </div>
+                <div className='imgGEOp'>
+                    <div>
+                        <div className='blueRec'></div>
+                        <img src="../assets/imggeof.jpg" alt="" />
+                        <div className='blueRec2'></div>
+                    </div>
+                
+                    <div>
+                        <img src="../assets/img3.jpg" alt="" />
+                        
+                        <img  src="../assets/img9.jpg" alt="" />
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -394,7 +434,7 @@ function Home({ setLocale, locale }) {
 
         </div>
 
-        <div  className='container topographyContainer'>
+        <div  className='container topographyContainer pcview'>
             <h3 className='main-sections-title '><FormattedMessage id="topography.description" /></h3>
             <div className="textFlex">
                 <div className='zoomImgContainer'>
@@ -414,6 +454,26 @@ function Home({ setLocale, locale }) {
                         <li><FormattedMessage id="topography.contourMapping" /></li>
 
                     </ul>
+                </div>
+            </div>
+        </div>
+        <div  className='container topographyContainer celview1'>
+            <h3 className='main-sections-title '><FormattedMessage id="topography.description" /></h3>
+            <div className="textFlex">
+                <div>
+                    <ul className='list-texts listHome'>
+                        <li><FormattedMessage id="topography.civilWorks" /></li>
+                        <li><FormattedMessage id="topography.roadDesign" /></li>
+                        <li><FormattedMessage id="topography.hydrologyAnalysis" /></li>
+                        <li><FormattedMessage id="topography.generalSurveying" /></li>
+                        <li><FormattedMessage id="topography.digitalElevationModels" /></li>
+                        <li><FormattedMessage id="topography.leveling" /></li>
+                        <li><FormattedMessage id="topography.excavations" /></li>
+                        <li><FormattedMessage id="topography.contourMapping" /></li>
+                    </ul>
+                </div>
+                <div className='zoomImgContainer'>
+                    <img src="../assets/drone.jpg" className="topographyImageDrone" alt="..."/>
                 </div>
             </div>
         </div>
