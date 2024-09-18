@@ -196,6 +196,33 @@
     margin-top: 50px;
 }
 
+/* Grid NS */
+.ourServiceColumn{
+    display: flex;
+    justify-content: center;
+}
+.ourServiceColumn > div {
+    margin: 5px 15px;
+}
+.imgPresentation{
+    border-radius:  13px;
+    height: 300px;
+}
+
+.ourServiceHomeTitle{
+    text-align: center;
+    font-size: 40px;
+    font-family: AlternateBold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.colortext{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
 @media (max-width:1399px) {
     .card{
         margin: 0 20px;
@@ -234,7 +261,10 @@
     .imgDirWidthMargin{
         margin-top: 0;
     }
-    
+    .blockCel{
+        display: block !important;
+        text-align: center;
+    }
 
 }
 
@@ -266,6 +296,14 @@
     .blueRec2{
         display: none;
     }
+}
+
+@media (max-width:570px) {
+    .imgPresentation{
+        border-radius:  10px;
+        height: 200px;
+    }
+    
 }
 
 @media (max-width:428px) {

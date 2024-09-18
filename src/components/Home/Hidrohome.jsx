@@ -56,12 +56,12 @@ function Hidrohome() {
                 <div className='celview imgHidro'>
                     <div>
 
-                        <img src="../assets/img6.jpg" alt="Image 2"/>
-                        <img src="../assets/imgNew.jpg" alt="Image 3"/>
-                        <img src="../assets/imgHidro1.jpg" alt="Image 4"/>
+                        <img src="../assets/img21.jpg" alt="Image 2"/>
+                        <img src="../assets/img61.jpg" alt="Image 3"/>
+                        <img src="../assets/imgNew.jpg" alt="Image 4"/>
                     </div>
                     <div>
-                        <img src="../assets/img2.jpg" alt="Image 1"/>
+                        <img src="../assets/imgHidro1.jpg" alt="Image 1"/>
                        
                         <img src="../assets/img5.jpg" alt="Image 5"/>
                     </div>

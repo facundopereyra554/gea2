@@ -26,9 +26,9 @@ import { useState } from 'react';
 
 
 function Home({ setLocale, locale }) {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    // useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, []);
 
     const [textObj, setTextObj] = useState("");
     const [teamValueAddition, setTeamValueAddition] = useState("");
@@ -99,6 +99,100 @@ function Home({ setLocale, locale }) {
             </div>
             <div id='hidrogeo'></div>          
         </div>
+        
+        <div className='container pcview'>
+            <h3 className='ourServiceHomeTitle colortext'><FormattedMessage id="nav.services"/></h3>
+            <div className="ourServiceColumn ">
+                <div>
+                    <img className='imgPresentation' src="../src/assets/imgre.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="hydrogeology"/></h3>
+                </div>
+                <div>
+                    <img className='imgPresentation' src="../src/assets/img10.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="mining.description" /></h3>
+                </div>
+                <div>
+                    <img className='imgPresentation' src="../src/assets/img11.png" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="permissions" /></h3>
+                </div>
+                
+            </div>
+            <div className="ourServiceColumn">
+                <div>
+                    <img className='imgPresentation' src="../src/assets/img51.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="environment.description" /></h3>
+                </div>
+                <div>
+                    <img className='imgPresentation' src="../src/assets/drone1.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="topography.description" /></h3>
+                </div>
+                <div>
+                    <img className='imgPresentation' src="../src/assets/filpz4.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="nav.sevaso" /></h3>
+                </div>
+            </div>
+        </div>
+
+        <div className='container celview1'>
+            <h3 className='ourServiceHomeTitle colortext'><FormattedMessage id="nav.services"/></h3>
+            <div className="ourServiceColumn ">
+                <div>
+                    <img className='imgPresentation' src="../src/assets/imgre.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="hydrogeology"/></h3>
+                </div>
+                <div>
+                    <img className='imgPresentation' src="../src/assets/img10.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="mining.description" /></h3>
+                </div>
+
+
+            </div>
+            <div className='blockCel'>
+                    <img className='imgPresentation' src="../src/assets/img11.png" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="permissions" /></h3>
+            </div>
+            <div className='ourServiceColumn'>
+                <div>
+                    <img className='imgPresentation' src="../src/assets/filpz4.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="nav.sevaso" /></h3>
+                </div>
+                <div>
+                    <img className='imgPresentation' src="../src/assets/drone1.jpg" alt="" />
+                    <br />
+                    <br />
+                    <h3 className='colortext'><FormattedMessage id="topography.description" /></h3>
+                </div>
+            </div>
+            <div className='blockCel'>
+                <img className='imgPresentation' src="../src/assets/img51.jpg" alt="" />
+                <br />
+                <br />
+                <h3 className='colortext'><FormattedMessage id="environment.description" /></h3>
+            </div>
+
+        </div>a
+
+
         <div>
             <Hidrohome/>  
         </div>

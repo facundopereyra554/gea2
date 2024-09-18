@@ -13,6 +13,9 @@
 .celview{
     display: none;
 }
+.celview1{
+    display: none;
+}
 
 
 
@@ -180,11 +183,14 @@
 }
 
 .imgHidro > div > img{
-    width: 100%;
+    width: 95%;
     border-radius: 20px;
     margin: 10px;
 
 }
+
+
+/* Media queries */
 
 @media (max-width:1600px) {
     .hidro-info-text{
@@ -269,6 +275,9 @@
     .celview{
         display: flex;
     }
+    .celview1{
+        display: block;
+    }
 
     .imgDirWidth{
         width: auto;
@@ -280,6 +289,7 @@
         justify-content: center;
     }
 }
+
 
 @media (max-width:700px) {
     .hidro-title{
