@@ -26,13 +26,14 @@ import { useState } from 'react';
 
 
 function Home({ setLocale, locale }) {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    // useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, []);
 
     const [textObj, setTextObj] = useState("");
     const [teamValueAddition, setTeamValueAddition] = useState("");
     const [teamLeadership, setTeamLeadership] = useState("");
+    const [fichaText, setFichaText] = useState("");
     const [long, setLong] = useState();
     const [srcLengLogo, setSrcLengLogo] = useState("../assets/newLogoEs.png");
 
@@ -53,15 +54,24 @@ function Home({ setLocale, locale }) {
             setTextObj("GEA se enfoca en proporcionar asesoramiento geológico profesional y soluciones técnicas. Nuestro equipo está compuesto por personal multidisciplinario que incluye hidrogeólogos, geólogos y expertos de diversas ramas de las ciencias de la tierra. Nuestro grupo ofrece herramientas específicas y gestión de datos precisos y de calidad para ayudar a comprender los recursos hidrológicos.") ;
             setTeamValueAddition("Agregar valor a los recursos estudiados mediante nuestra experiencia en la industria. Garantizar la fiabilidad de nuestros servicios al ajustarnos a las normativas y políticas actuales de la empresa empleadora. Otorgar confiabilidad en nuestros servicios, adaptándonos en las normas y políticas vigentes del empleador.");
             setTeamLeadership("Ocupar un puesto de liderazgo en la promoción y ejecución de servicios mineros, con un firme compromiso hacia el fomento de un desarrollo responsable de la industria, respaldado por nuestra amplia experiencia en la región de la Puna. Gracias a nuestra trayectoria en proyectos emblemáticos de esta zona, estamos en posición de comprender las necesidades singulares tanto de la industria como de nuestros valiosos clientes.");
+            setFichaText("Ficha técnica");
             setLong(200);
         } else {
             setTextObj("GEA focuses on providing professional geological advice and technical solutions. Our team is composed of multidisciplinary personnel, including hydrogeologists, geologists, and experts from various branches of earth sciences. Our group offers specific tools and accurate quality data management to help understand hydrological resources.");
             setTeamValueAddition("Add value to the resources studied through our industry experience. To guarantee the reliability of our services by complying with the current regulations and policies of the employer company. To provide reliability in our services, adapting ourselves to the employer's standards and policies in force.");
             setTeamLeadership("To occupy a leadership position in the promotion and execution of mining services, with a firm commitment to the promotion of responsible development of the industry, backed by our extensive experience in the Puna region. With our track record on landmark projects in this area, we are in a position to understand the unique needs of both the industry and our valued customers.");
+            setFichaText("Technical sheet");
             setLong(170);
             setSrcLengLogo("../assets/newLogoEn.png");
         }
     }, [locale]);
+
+    let handleDownloadClick = () => {
+        const link = document.createElement('a');
+        link.href = "../assets/ficha-tecnica-filmación-de-pozo.jpg";
+        link.download = "ficha-tecnica-filmación-de-pozo.jpg";
+        link.click();
+    }
 
 
     return (
@@ -104,19 +114,19 @@ function Home({ setLocale, locale }) {
             <h3 className='ourServiceHomeTitle colortext'><FormattedMessage id="nav.services"/></h3>
             <div className="ourServiceColumn ">
                 <div>
-                    <img className='imgPresentation' src="../src/assets/imgre.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/imgre.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="hydrogeology"/></h3>
                 </div>
                 <div>
-                    <img className='imgPresentation' src="../src/assets/img10.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/img10.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="mining.description" /></h3>
                 </div>
                 <div>
-                    <img className='imgPresentation' src="../src/assets/img11.png" alt="" />
+                    <img className='imgPresentation' src="../assets/img11.png" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="permissions" /></h3>
@@ -125,19 +135,19 @@ function Home({ setLocale, locale }) {
             </div>
             <div className="ourServiceColumn">
                 <div>
-                    <img className='imgPresentation' src="../src/assets/img51.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/img51.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="environment.description" /></h3>
                 </div>
                 <div>
-                    <img className='imgPresentation' src="../src/assets/drone1.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/drone1.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="topography.description" /></h3>
                 </div>
                 <div>
-                    <img className='imgPresentation' src="../src/assets/filpz4.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/filpz4.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="nav.sevaso" /></h3>
@@ -149,13 +159,13 @@ function Home({ setLocale, locale }) {
             <h3 className='ourServiceHomeTitle colortext'><FormattedMessage id="nav.services"/></h3>
             <div className="ourServiceColumn ">
                 <div>
-                    <img className='imgPresentation' src="../src/assets/imgre.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/imgre.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="hydrogeology"/></h3>
                 </div>
                 <div>
-                    <img className='imgPresentation' src="../src/assets/img10.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/img10.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="mining.description" /></h3>
@@ -164,27 +174,27 @@ function Home({ setLocale, locale }) {
 
             </div>
             <div className='blockCel'>
-                    <img className='imgPresentation' src="../src/assets/img11.png" alt="" />
+                    <img className='imgPresentation' src="../assets/img11.png" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="permissions" /></h3>
             </div>
             <div className='ourServiceColumn'>
                 <div>
-                    <img className='imgPresentation' src="../src/assets/filpz4.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/filpz4.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="nav.sevaso" /></h3>
                 </div>
                 <div>
-                    <img className='imgPresentation' src="../src/assets/drone1.jpg" alt="" />
+                    <img className='imgPresentation' src="../assets/drone1.jpg" alt="" />
                     <br />
                     <br />
                     <h3 className='colortext'><FormattedMessage id="topography.description" /></h3>
                 </div>
             </div>
             <div className='blockCel'>
-                <img className='imgPresentation' src="../src/assets/img51.jpg" alt="" />
+                <img className='imgPresentation' src="../assets/img51.jpg" alt="" />
                 <br />
                 <br />
                 <h3 className='colortext'><FormattedMessage id="environment.description" /></h3>
@@ -354,6 +364,11 @@ function Home({ setLocale, locale }) {
                             <li><FormattedMessage id="wellFilming.obstructions" /></li>
                         </ul>
                     </p>
+                    <div className='downloadFc' onClick={handleDownloadClick}>
+                        <h3>{fichaText}</h3>
+                        <span className='iconDownload'><i className='bx bx-download'></i></span>
+                    </div>
+                    
                 </div>
             </div>
 

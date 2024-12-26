@@ -222,6 +222,34 @@
     font-weight: bold;
 }
 
+.downloadFc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.downloadFc h3{
+ font-size: 20px;
+ cursor: pointer;
+}
+
+.iconDownload{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.iconDownload:hover{
+    background-color: var(--secondary-color);
+    transition: .2s;
+}
 
 @media (max-width:1399px) {
     .card{
