@@ -83,6 +83,13 @@
     "rotaryDrillingTasks.waterParameters": "Toma de parámetros físicos del agua.",
     "rotaryDrillingTasks.operationTimeControl": "Control del tiempo de las operaciones.",
     "rotaryDrillingTasks.safetyControl": "Controlar la seguridad de las operaciones.",
+
+    "newService.title": "NUEVO SERVICIO",
+    "newService.titleINSAR": "MONITOREO DE DEFORMACIONES CON TECNOLOGÍA INSAR",
+    "newService.descriptionINSAR": "Servicio para monitoreo continuo, remoto de cobertura amplia y precisión milimétrica de las deformaciones ocasionadas por la actividad minera o fenómenos geológicos ajenos.",
+    "newService.titleISOTOPICOS": "SERVICIO DE CARACTERIZACIÓN DEL RECURSO HÍDRICO MEDIANTE TRAZADORES ISOTÓPICOS",
+    "newService.descriptionISOTOPICOS": "El uso de este método nos permite identificar y caracterizar los diferentes niveles de acuíferos, origen y tiempo de residencia del agua subterránea a los efectos de cuantificar la vida útil del recurso hídrico y definir el modelo de circulación en el escenario hidrogeológico.",
+    "newServiceButton": "Descargar PDF",
   
 
     "wellFilming.description": "FILMACIÓN DE POZO",

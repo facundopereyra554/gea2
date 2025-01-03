@@ -81,6 +81,13 @@
     "rotaryDrillingTasks.waterParameters": "Measurement of physical water parameters.",
     "rotaryDrillingTasks.operationTimeControl": "Control operation time.",
     "rotaryDrillingTasks.safetyControl": "Ensure operational safety.",
+
+    "newService.title": "NEW SERVICE",
+    "newService.titleINSAR": "MONITORING OF DEFORMATIONS WITH INSAR TECHNOLOGY",
+    "newService.descriptionINSAR": "A service for continuous, remote monitoring with wide coverage and millimeter precision of deformations caused by mining activities or unrelated geological phenomena.",
+    "newService.titleISOTOPICOS": "HYDROLOGICAL RESOURCE CHARACTERIZATION USING ISOTOPIC TRACERS",
+    "newService.descriptionISOTOPICOS": "The use of this method allows us to identify and characterize different aquifer levels, the origin, and residence time of groundwater, in order to quantify the useful life of the water resource and define the circulation model in the hydrogeological scenario.",
+    "newServiceButton": "Download PDF",
     
 
     "wellFilming.description": "WELL FILMING",

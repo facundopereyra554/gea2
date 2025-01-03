@@ -26,9 +26,9 @@ import { useState } from 'react';
 
 
 function Home({ setLocale, locale }) {
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const [textObj, setTextObj] = useState("");
     const [teamValueAddition, setTeamValueAddition] = useState("");
@@ -66,10 +66,10 @@ function Home({ setLocale, locale }) {
         }
     }, [locale]);
 
-    let handleDownloadClick = () => {
+    let handleDownloadClick = (srcImage,titleDownload) => {
         const link = document.createElement('a');
-        link.href = "../assets/ficha-tecnica-filmación-de-pozo.jpg";
-        link.download = "ficha-tecnica-filmación-de-pozo.jpg";
+        link.href = srcImage;
+        link.download = titleDownload;
         link.click();
     }
 
@@ -209,7 +209,7 @@ function Home({ setLocale, locale }) {
         
 
 
-        <div className='container pcview' id='geofisica '>
+        <div className='container pcview' id='geofisica'>
             <h3 className='main-sections-title main-sections-title-long'><FormattedMessage id="wellGeology" /></h3>
             <div className='textFlex'>
                 <div className='imgGEOp'>
@@ -313,7 +313,7 @@ function Home({ setLocale, locale }) {
                         <br />
                     </p>
                     
-                    <ul id='sevaso' className='list-texts listHome'>
+                    <ul className='list-texts listHome'>
                         <li><FormattedMessage id="rotaryDrillingTasks.siteManagement" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.operationalDecisions" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.cuttingLogging" /></li>
@@ -326,7 +326,7 @@ function Home({ setLocale, locale }) {
                         <li><FormattedMessage id="rotaryDrillingTasks.waterParameters" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.operationTimeControl" /></li>
                         <li><FormattedMessage id="rotaryDrillingTasks.safetyControl" /></li>
-                        <li><FormattedMessage id="technicalDirection.db" /></li>
+                        <li id='newService'><FormattedMessage id="technicalDirection.db" /></li>
                     </ul>
                 </div>
 
@@ -348,10 +348,37 @@ function Home({ setLocale, locale }) {
             </div>
         </div>
 
-        <div  className='cards-containers container'>
+        <div className='container newService'>
+            <h3 className='main-sections-title '><FormattedMessage id="newService.title" /></h3>
+
+            <div className='newServiceContainer'>
+                <div className='insarContainer'>
+                    <img src="../assets/insar.png" alt="insarImage" />
+                    <div className='infoInsar newServiceP'>
+                        <h3 className='titleCard'><FormattedMessage id="newService.titleINSAR" /></h3>
+                        <p className='textHome'><FormattedMessage id="newService.descriptionINSAR" /></p>
+                        <br />
+                        <span onClick={() => handleDownloadClick('../assets/GEA-BROCHURE-INSAR.pdf','GEA INSAR')} className='downloadBtnPredet'><FormattedMessage id="newServiceButton" /> <i className='bx bx-download'></i></span>
+                    </div>
+                </div>
+                <div className='line'></div>
+                <div className='istoContainer'>
+                    <img src="../assets/isot.jpg" alt="isotopiaImage" />
+                    <div id='sevaso'   className='infoInto newServiceP'>
+                        <h3 className='titleCard'><FormattedMessage id="newService.titleISOTOPICOS" /></h3>
+                        <p className='textHome'><FormattedMessage id="newService.descriptionISOTOPICOS" /></p>
+                        <br />
+                        <span onClick={() => handleDownloadClick('../assets/GEA-BROCHURE-ISOTOPÍA.pdf','GEA ISOTOPÍA')} className='downloadBtnPredet'><FormattedMessage id="newServiceButton" /> <i className='bx bx-download'></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div   className='cards-containers container'>
             <div className="card" style={{width:'400px'}}>
             <div className='zoomImgContainer'>
-                <img src="../assets/filpz1.jpg" className="card-img-top" alt="..."/>
+                <img src="../assets/filpz1.png" className="card-img-top" alt="..."/>
             </div>
                 <div className="card-body">
                     <h3 className='titleCard'><FormattedMessage id="wellFilming.description" /></h3>
@@ -364,7 +391,7 @@ function Home({ setLocale, locale }) {
                             <li><FormattedMessage id="wellFilming.obstructions" /></li>
                         </ul>
                     </p>
-                    <div className='downloadFc' onClick={handleDownloadClick}>
+                    <div className='downloadFc' onClick={() => handleDownloadClick('../assets/ficha-tecnica-filmación-de-pozo.jpg','ficha-tecnica-filmación-de-pozo')}>
                         <h3>{fichaText}</h3>
                         <span className='iconDownload'><i className='bx bx-download'></i></span>
                     </div>

@@ -53,6 +53,9 @@ function Nav({setLocale, locale}) {
                                                         <li className="dropdown-link">
                                                             <a href="#dirtec"><FormattedMessage id="technicalDirection.description" /></a>
                                                         </li>
+                                                        <li className="dropdown-link">
+                                                            <a href="#newService"><FormattedMessage id="newService.title" /></a>
+                                                        </li>
                                                         <div className="arrow"></div>
                                                     </ul>
                                                 </div>
